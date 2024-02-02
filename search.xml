@@ -19,8 +19,8 @@
 ]]></content>
   </entry>
   <entry>
-    <title>发布第一篇个人博客</title>
-    <url>/posts/387162d6.html</url>
+    <title>first</title>
+    <url>/posts/9271ee57.html</url>
     <content><![CDATA[<h3 id="目录一"><a href="#目录一" class="headerlink" title="目录一"></a>目录一</h3><p>–</p>
 <h3 id="henxihua"><a href="#henxihua" class="headerlink" title="henxihua"></a>henxihua</h3><p> gengxin</p>
  <span id="more"></span>
@@ -29,6 +29,10 @@
 <p>title: 是以倾<br>subtitle: “iOS开发工程师”<br>description: “实践是检验真理的唯一标准”<br>keywords:<br>author: shiyiqing<br>language: en<br>timezone: “”</p>
 <h1 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h1><h2 id="Set-your-site-url-here-For-example-if-you-use-GitHub-Page-set-url-as-‘https-username-github-io-project‘"><a href="#Set-your-site-url-here-For-example-if-you-use-GitHub-Page-set-url-as-‘https-username-github-io-project‘" class="headerlink" title="Set your site url here. For example, if you use GitHub Page, set url as ‘https://username.github.io/project‘"></a>Set your site url here. For example, if you use GitHub Page, set url as ‘<a href="https://username.github.io/project">https://username.github.io/project</a>‘</h2><p>url: <a href="https://shiyiqing.github.io/">https://shiyiqing.github.io/</a><br>permalink: :year&#x2F;:month&#x2F;:day&#x2F;:title&#x2F;<br>permalink_defaults:<br>pretty_urls:<br>  trailing_index: true # Set to false to remove trailing ‘index.html’ from permalinks<br>  trailing_html: true # Set to false to remove trailing ‘.html’ from permalinks</p>
 <p>sitemap:<br>    path: sitemap.xml</p>
+<pre><code>这是一个链接 [菜鸟教程](https://www.runoob.com)
+
+[Google](http://www.google.com/)
+</code></pre>
 ]]></content>
   </entry>
 </search>
