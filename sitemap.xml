@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shiyiqing.github.io/posts/9271ee57.html</loc>
+    <loc>https://shiyiqing.github.io/posts/60982db0.html</loc>
     
     <lastmod>2024-02-02</lastmod>
     
@@ -64,6 +64,27 @@
   </url>
 
   
+  <url>
+    <loc>https://shiyiqing.github.io/tags/Hello/</loc>
+    <lastmod>2024-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiyiqing.github.io/tags/World/</loc>
+    <lastmod>2024-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://shiyiqing.github.io/categories/Hello/</loc>
+    <lastmod>2024-02-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
