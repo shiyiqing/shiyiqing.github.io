@@ -14,16 +14,15 @@ timezone: ""
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://shiyiqing.github.io/
-permalink: posts/:category/:year/:month/:day/:abbrlink.html
-#permalink: :category/:title/
+permalink: posts/:category/:urlname.html
 #permalink: :year/:month/:day/:title/ 默认url
-abbrlink:
-  alg: crc32  # 算法：crc16(default) and crc32
-  rep: hex    # 进制：dec(default) and hex
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+#abbrlink:
+ # alg: crc32  # 算法：crc16(default) and crc32
+  #rep: hex    # 进制：dec(default) and hex
+#permalink_defaults:
+#pretty_urls:
+ # trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+ # trailing_html: true # Set to false to remove trailing '.html' from permalinks
   
 Plugins:
 - hexo-generator-baidu-sitemap
