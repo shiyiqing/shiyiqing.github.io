@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>第一篇个人博客</title>
-    <url>/Hello/60982db0.html</url>
+    <url>/posts/website-building-course/first-blog.html</url>
     <content><![CDATA[<h3 id="目录一"><a href="#目录一" class="headerlink" title="目录一"></a>目录一</h3><p>–</p>
 <h3 id="henxihua"><a href="#henxihua" class="headerlink" title="henxihua"></a>henxihua</h3><p> gengxin</p>
 <p>title: 是以倾<br>subtitle: “iOS开发工程师”<br>description: “实践是检验真理的唯一标准”<br>keywords:<br>author: shiyiqing<br>language: en<br>timezone: “”</p>
@@ -12,7 +12,7 @@
 <p><a href="http://www.google.com/">Google</a></p>
 ]]></content>
       <categories>
-        <category>Hello</category>
+        <category>建站教程</category>
       </categories>
       <tags>
         <tag>Hello</tag>
@@ -21,7 +21,7 @@
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/uncategorized/4a17b156.html</url>
+    <url>/posts/uncategorized/undefined.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 

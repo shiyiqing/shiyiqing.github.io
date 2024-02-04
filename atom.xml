@@ -6,7 +6,7 @@
   <link href="https://shiyiqing.github.io/atom.xml" rel="self"/>
   
   <link href="https://shiyiqing.github.io/"/>
-  <updated>2024-02-03T13:43:24.406Z</updated>
+  <updated>2024-02-04T02:20:25.947Z</updated>
   <id>https://shiyiqing.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>第一篇个人博客</title>
-    <link href="https://shiyiqing.github.io/Hello/60982db0.html"/>
-    <id>https://shiyiqing.github.io/Hello/60982db0.html</id>
+    <link href="https://shiyiqing.github.io/posts/website-building-course/first-blog.html"/>
+    <id>https://shiyiqing.github.io/posts/website-building-course/first-blog.html</id>
     <published>2024-02-01T16:02:01.389Z</published>
-    <updated>2024-02-03T13:43:24.406Z</updated>
+    <updated>2024-02-04T02:20:25.947Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;目录一&quot;&gt;&lt;a href=&quot;#目录一&quot; class=&quot;headerlink&quot; title=&quot;目录一&quot;&gt;&lt;/a&gt;目录一&lt;/h3&gt;&lt;p&gt;–&lt;/p&gt;
@@ -29,7 +29,7 @@
     
     
     
-    <category term="Hello" scheme="https://shiyiqing.github.io/categories/Hello/"/>
+    <category term="建站教程" scheme="https://shiyiqing.github.io/categories/website-building-course/"/>
     
     
     <category term="Hello" scheme="https://shiyiqing.github.io/tags/Hello/"/>
@@ -40,8 +40,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://shiyiqing.github.io/uncategorized/4a17b156.html"/>
-    <id>https://shiyiqing.github.io/uncategorized/4a17b156.html</id>
+    <link href="https://shiyiqing.github.io/posts/uncategorized/undefined.html"/>
+    <id>https://shiyiqing.github.io/posts/uncategorized/undefined.html</id>
     <published>2024-02-01T15:57:56.409Z</published>
     <updated>2024-02-02T13:29:59.576Z</updated>
     

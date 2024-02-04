@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shiyiqing.github.io/Hello/60982db0.html</loc>
+    <loc>https://shiyiqing.github.io/posts/website-building-course/first-blog.html</loc>
     
-    <lastmod>2024-02-03</lastmod>
+    <lastmod>2024-02-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://shiyiqing.github.io/uncategorized/4a17b156.html</loc>
+    <loc>https://shiyiqing.github.io/posts/uncategorized/undefined.html</loc>
     
     <lastmod>2024-02-02</lastmod>
     
@@ -58,7 +58,7 @@
 
   <url>
     <loc>https://shiyiqing.github.io/</loc>
-    <lastmod>2024-02-03</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -66,14 +66,14 @@
   
   <url>
     <loc>https://shiyiqing.github.io/tags/Hello/</loc>
-    <lastmod>2024-02-03</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://shiyiqing.github.io/tags/World/</loc>
-    <lastmod>2024-02-03</lastmod>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -81,8 +81,8 @@
 
   
   <url>
-    <loc>https://shiyiqing.github.io/categories/Hello/</loc>
-    <lastmod>2024-02-03</lastmod>
+    <loc>https://shiyiqing.github.io/categories/website-building-course/</loc>
+    <lastmod>2024-02-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
