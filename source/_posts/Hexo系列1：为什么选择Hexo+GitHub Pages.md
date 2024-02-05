@@ -1,11 +1,9 @@
 ---
-title: Hexo+Github搭建博客系列1：为什么选择Hexo？
-urlname: Why-choose-Hexo
+title: Hexo系列1：为什么选择Hexo+GitHub Pages
+urlname: Why-choose-Hexo-and-GitHub-Pages
 tags:
   - Hexo
-  - Next
-  - GitHub-Page
-  - MAC
+  - GitHub-Pages
 categories:
   - Blog-Building
 abbrlink: 39009
@@ -85,7 +83,7 @@ Hexo 的工作原理是将用户编写的Markdown 文件转换为HTML 文件，�
 
 参考：[wordpress和hexo哪个更适合用来搭建个人博客？](https://www.zhihu.com/question/53068081)
   
-## 5. GitHub Page
+## 5. GitHub Pages
 
 静态博客的托管服务可用GitHub、Coding、Gitee、Netlify、Vercel等。这些服务都是基于 Git的，将博客源码存放在平台，托管服务自动拉取并构建网页。因为平时用github比较多，就选择了Github Pages来托管博客。
 
