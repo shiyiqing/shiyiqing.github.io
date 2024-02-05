@@ -6,7 +6,7 @@
   <link href="https://shiyiqing.github.io/atom.xml" rel="self"/>
   
   <link href="https://shiyiqing.github.io/"/>
-  <updated>2024-02-04T14:19:12.666Z</updated>
+  <updated>2024-02-05T10:31:13.104Z</updated>
   <id>https://shiyiqing.github.io/</id>
   
   <author>
@@ -17,26 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://shiyiqing.github.io/posts/uncategorized/undefined.html"/>
-    <id>https://shiyiqing.github.io/posts/uncategorized/undefined.html</id>
+    <title>Hexo系列2：Hexo+GitHub Pages安装部署（MAC）</title>
+    <link href="https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html"/>
+    <id>https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html</id>
     <published>2024-02-04T11:56:21.285Z</published>
-    <updated>2024-02-04T14:19:12.666Z</updated>
+    <updated>2024-02-05T10:31:13.104Z</updated>
     
     
-    <summary type="html">&lt;p&gt;使用Hexo的大致流程为：&lt;br&gt;1.安装依赖环不境 (Node.js和 Git)&lt;/p&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;0-前言&quot;&gt;&lt;a href=&quot;#0-前言&quot; class=&quot;headerlink&quot; title=&quot;0. 前言&quot;&gt;&lt;/a&gt;0. 前言&lt;/h3&gt;</summary>
     
     
     
+    <category term="Blog-Building" scheme="https://shiyiqing.github.io/categories/Blog-Building/"/>
+    
+    
+    <category term="Hexo" scheme="https://shiyiqing.github.io/tags/Hexo/"/>
+    
+    <category term="MAC" scheme="https://shiyiqing.github.io/tags/MAC/"/>
+    
+    <category term="GitHub-Pages" scheme="https://shiyiqing.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="Token" scheme="https://shiyiqing.github.io/tags/Token/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建博客系列1：为什么选择Hexo？</title>
-    <link href="https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo.html"/>
-    <id>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo.html</id>
+    <title>Hexo系列1：为什么选择Hexo+GitHub Pages</title>
+    <link href="https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo-and-GitHub-Pages.html"/>
+    <id>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo-and-GitHub-Pages.html</id>
     <published>2024-02-01T16:02:01.389Z</published>
-    <updated>2024-02-05T02:24:09.634Z</updated>
+    <updated>2024-02-05T02:53:05.932Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-为什么搭建个人博客&quot;&gt;&lt;a href=&quot;#1-为什么搭建个人博客&quot; class=&quot;headerlink&quot; title=&quot;1. 为什么搭建个人博客&quot;&gt;&lt;/a&gt;1. 为什么搭建个人博客&lt;/h2&gt;</summary>
@@ -48,11 +58,7 @@
     
     <category term="Hexo" scheme="https://shiyiqing.github.io/tags/Hexo/"/>
     
-    <category term="Next" scheme="https://shiyiqing.github.io/tags/Next/"/>
-    
-    <category term="GitHub-Page" scheme="https://shiyiqing.github.io/tags/GitHub-Page/"/>
-    
-    <category term="MAC" scheme="https://shiyiqing.github.io/tags/MAC/"/>
+    <category term="GitHub-Pages" scheme="https://shiyiqing.github.io/tags/GitHub-Pages/"/>
     
   </entry>
   

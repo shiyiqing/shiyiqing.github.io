@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo.html</loc>
+    <loc>https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html</loc>
     
     <lastmod>2024-02-05</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://shiyiqing.github.io/posts/uncategorized/undefined.html</loc>
+    <loc>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo-and-GitHub-Pages.html</loc>
     
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -81,21 +81,21 @@
   </url>
   
   <url>
-    <loc>https://shiyiqing.github.io/tags/Next/</loc>
-    <lastmod>2024-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://shiyiqing.github.io/tags/GitHub-Page/</loc>
-    <lastmod>2024-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://shiyiqing.github.io/tags/MAC/</loc>
+    <lastmod>2024-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiyiqing.github.io/tags/GitHub-Pages/</loc>
+    <lastmod>2024-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiyiqing.github.io/tags/Token/</loc>
     <lastmod>2024-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

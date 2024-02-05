@@ -22,29 +22,31 @@
 
 
 
-    <meta name="description" content="使用Hexo的大致流程为：1.安装依赖环不境 (Node.js和 Git)">
+    <meta name="description" content="0. 前言">
 <meta property="og:type" content="article">
-<meta property="og:title" content="是以倾">
-<meta property="og:url" content="https://shiyiqing.github.io/posts/uncategorized/undefined.html">
+<meta property="og:title" content="Hexo系列2：Hexo+GitHub Pages安装部署（MAC）">
+<meta property="og:url" content="https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html">
 <meta property="og:site_name" content="是以倾">
-<meta property="og:description" content="使用Hexo的大致流程为：1.安装依赖环不境 (Node.js和 Git)">
+<meta property="og:description" content="0. 前言">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://shiyiqing.github.io/image.png">
 <meta property="article:published_time" content="2024-02-04T11:56:21.285Z">
-<meta property="article:modified_time" content="2024-02-04T14:19:12.666Z">
+<meta property="article:modified_time" content="2024-02-05T10:31:13.104Z">
 <meta property="article:author" content="shiyiqing">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="MAC">
+<meta property="article:tag" content="GitHub-Pages">
+<meta property="article:tag" content="Token">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://shiyiqing.github.io/image.png">
 
 
-<link rel="canonical" href="https://shiyiqing.github.io/posts/uncategorized/undefined.html">
+<link rel="canonical" href="https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://shiyiqing.github.io/posts/uncategorized/undefined.html","path":"posts/uncategorized/undefined.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html","path":"posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html","title":"Hexo系列2：Hexo+GitHub Pages安装部署（MAC）"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title> | 是以倾</title>
+<title>Hexo系列2：Hexo+GitHub Pages安装部署（MAC） | 是以倾</title>
   
 
   <script src="/js/third-party/analytics/baidu-analytics.js"></script>
@@ -134,7 +136,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -147,6 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#0-%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">0. 前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Hexo"><span class="nav-number">2.</span> <span class="nav-text">1.  Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-GitHub-Pages"><span class="nav-number">3.</span> <span class="nav-text">2.  GitHub Pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E9%83%A8%E7%BD%B2Hexo%E5%88%B0GitHub-Pages"><span class="nav-number">4.</span> <span class="nav-text">3. 部署Hexo到GitHub Pages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E5%87%BA%E7%8E%B0%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">5.</span> <span class="nav-text">4. 博客搭建过程中出现的问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E6%80%BB%E7%BB%93"><span class="nav-number">6.</span> <span class="nav-text">5. 总结</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -207,7 +210,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://shiyiqing.github.io/posts/uncategorized/undefined.html">
+    <link itemprop="mainEntityOfPage" href="https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/Dpzz.jpeg">
@@ -220,12 +223,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content=" | 是以倾">
+      <meta itemprop="name" content="Hexo系列2：Hexo+GitHub Pages安装部署（MAC） | 是以倾">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
+          Hexo系列2：Hexo+GitHub Pages安装部署（MAC）
         </h1>
 
         <div class="post-meta-container">
@@ -235,9 +238,24 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2024-02-04 19:56:21 / Modified: 22:19:12" itemprop="dateCreated datePublished" datetime="2024-02-04T19:56:21+08:00">2024-02-04</time>
+      <time title="Created: 2024-02-04 19:56:21" itemprop="dateCreated datePublished" datetime="2024-02-04T19:56:21+08:00">2024-02-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2024-02-05 18:31:13" itemprop="dateModified" datetime="2024-02-05T18:31:13+08:00">2024-02-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Blog-Building/" itemprop="url" rel="index"><span itemprop="name">Blog-Building</span></a>
+        </span>
     </span>
 
   
@@ -254,7 +272,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Word count in article: </span>
-      <span>785</span>
+      <span>781</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
@@ -271,21 +289,94 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><p>使用Hexo的大致流程为：<br>1.安装依赖环不境 (Node.js和 Git)</p>
-<ol>
-<li>安装Hexo</li>
-<li>创建博客项目</li>
-<li>添加文章</li>
-<li>修改配置（主题、网站信息等）</li>
-<li>生成网页<br>7.部署</li>
+    <div class="post-body" itemprop="articleBody"><h3 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h3><p>准备：</p>
+<ul>
+<li>一台Mac</li>
+<li>已安装Git</li>
+<li>已安装Homebrew</li>
+<li>已创建GitHub账号</li>
+</ul>
+<h3 id="1-Hexo"><a href="#1-Hexo" class="headerlink" title="1.  Hexo"></a>1.  Hexo</h3><p>安装Hexo的大致流程为：安装—＞初始化一＞启动一＞写博客一＞部署</p>
+<p>1） 安装依赖环境</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install <span class="keyword">node</span><span class="title"></span></span><br></pre></td></tr></table></figure>
+<p>2） 安装Hexo</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-<span class="keyword">cli</span> </span><br></pre></td></tr></table></figure>
+
+<p>3） 初始化</p>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">mkdir</span> blog</span><br><span class="line"><span class="keyword">cd</span> blog <span class="comment">//一定要在blog目录下</span></span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<p>4） 启动</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+
+<p>在浏览器输入：<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a>，可以看到一篇默认博客Hello World</p>
+<p>5） 写博客</p>
+<p>ctrl + c 断开链接，新建博文：</p>
+<figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">创建新博客：hexo <span class="keyword">new</span> <span class="string">&quot;my first blog&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>可以看到，在目录blog&#x2F;source&#x2F;_posts下生成了一个my first blog.md文件，这就是你的博客，编辑该文件</p>
+<p>可以编写边调试看效果：</p>
+<figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">清理生成： hexo <span class="built_in">clean</span> </span><br><span class="line">生成页面： hexo g</span><br><span class="line">启动服务： hexo s</span><br></pre></td></tr></table></figure>
+
+<p>6） 部署</p>
+<p>本地博客部署到GitHub Pages，需要先在GitHub建一个仓库，然后生成一个Token来保证本地的博客能推送到远端。</p>
+<h3 id="2-GitHub-Pages"><a href="#2-GitHub-Pages" class="headerlink" title="2.  GitHub Pages"></a>2.  <span id="jump">GitHub Pages</span></h3><p>1） 创建 <code>yourname.github.io</code> 仓库</p>
+<p>进入<a target="_blank" rel="noopener" href="https://github.com/">GitHub官网</a>,新建一个公开的名为 <code>yourname.github.io</code>  的仓库(yourname为你的用户名)。</p>
+<p>2）GitHub生成Token</p>
+<p>生成Token步骤为：</p>
+<p>账户右上角头像—＞Settings—＞Developer Settings—＞Personal Access Tokens(classic)—＞Generate New Token(classic)—＞设置Token名称、到期时间、权限（repo勾上）—＞Generate Token—＞复制Token（<strong>离开当前页面，将无法再看到它！！！</strong>）</p>
+<h3 id="3-部署Hexo到GitHub-Pages"><a href="#3-部署Hexo到GitHub-Pages" class="headerlink" title="3. 部署Hexo到GitHub Pages"></a>3. 部署Hexo到GitHub Pages</h3><ol>
+<li>安装部署插件</li>
 </ol>
-<p>自定义配置<br>••站点配置：根目录下 config. yml 文件；<br>•主题配置：主题根目录下_config- yml 文件；<br>心得体会</p>
-<p>安装<br>•cit：官网<br>• Nodejs： 官网<br>• Hexo: npm install -g hexo-cli<br>使用<br>。初始化：npm init<br>•安装模块：npm instal1<br>•新文章：hexo newmm<br>•清除生成：hexo clean<br>•生成页面：hexo g<br>•启动服务：hexos<br>。部署：hexo d<br>%. Mculover556</p>
-<p>基本配置<br>•域名：mculover666.cn<br>•国内分流：mculover666.coding.me<br>•境外分流：mculover666.github.io<br>。平台：Coding + Github双平台部署<br>。框架：Hexo v3.8.0<br>•主题：Next.Pisces v7.1.1<br>•评论系统：Valine<br>。搜索服务：Local Search<br>•站点统计：不蒜子<br>。数据统计：百度统计<br>。内容分享：百度分享<br>•公式服务：MathJax<br>。音乐服务：网易云音乐<br>•。背景效果：点击鼠标浮现爱心＋社会主义核心价值观</p>
-<p>正文<br>如何搭建<br>先用hexo搭建一个本地的博客网站<br>hexo官网 写的非常详细。一说到看官方文档就想到尤大说的一句话：〞对于学习技术而言，看官方文档就完全足够了，但是很多人就是不看〞。对此，我只想说确实是这样，但是有个前提是你得先对这个技术有个大概的了解，所以我通常会先看下别人出的教程，看下别人写的demo，再回过头来看官方文档。<br>官方文档中详细描述了整个过程：安装-＞初始化一＞启动一＞部署。<br>•安装hexo脚手架：<br>§ npm instal1 hexo-cli -g<br>• #Jt#lthexomE:<br>$ hexo init blog $ ed blog<br>§ nom install<br>•启动hexo项目：<br>§ hexo server<br>然后你就可以看到如下效果：</p>
-<p>搭建歩骤<br>环境搭建<br>•安装node.js<br>•安装git<br>•安装Hexo<br>•初始化Hexo<br>•构建Hexo<br>•启动Hexo内建服务器<br>部署Hexo到远程平台<br>•GitHub创建仓库<br>•安装hexo-deployer-git<br>•修改本地配置文件<br>•github SSH的配置<br>•复制密钥到github<br>•验证是否配置成功<br>•访问自己的博客</p>
-<p><img data-src="/image.png" alt="alt text"></p>
-<p>hexo安装中出现的问题<br>1.出错描述<br>node: relocation error: node: symbol ssI_set_cert_cb, version 1ibss1 .so .:<br>亲测有效：解决方案<br>2.万能方法<br>回使用搜索引擎，如百度，Google（建议自己搭梯子）等，很大一部分问题都能得到解决；<br>回学会读异常，如在配置_contig yml文件时，经常会因为没有输入空格，导致网站无法显示，但是在hexog是会提示第几行第几列出错的，要注意仔细阅读，并以此类推。<br>◎上面两种方法均无法解决问题，试了很多方法并不能奏效时，可是尝试向朋友或者相关博客中的作者提问，得到解决方案，做技术的在有人向他提问题时，除非是不动脑子的问题，一般都会回答你。如果大家在博客搭建中有相关问题，我们也可以一起讨论，文后有我公众号地址。</p>
+<p>ctrl + c 断开链接，在blog目录下：</p>
+<figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>修改hexo配置</li>
+</ol>
+<p>i : 打开Hexo配置文件 : _config.yml</p>
+<p>ii : 修改repo为<a href="#jump">2.  GitHub Pages</a>创建的仓库地址</p>
+<figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">\<span class="meta"># Deployment</span></span><br><span class="line">\<span class="meta">#\# Docs: https:<span class="comment">//hexo.io/docs/deployment.html</span></span></span><br><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repo:</span> https:<span class="comment">//github.com/yourname/yourname.github.io.git //将yourname替换成你的用户名</span></span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
+<ol start="3">
+<li>部署到远端</li>
+</ol>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
+
+<p>中间会让输入github用户名和密码，密码用<a href="#jump">2.  GitHub Pages</a>生成的Token代替。</p>
+<p>4）访问博客</p>
+<p>博客网址：<code>https://github.com/yourname/yourname.github.io</code> </p>
+<h3 id="4-博客搭建过程中出现的问题"><a href="#4-博客搭建过程中出现的问题" class="headerlink" title="4. 博客搭建过程中出现的问题"></a>4. 博客搭建过程中出现的问题</h3><ol>
+<li><code>Error: Cannot download non-corrupt https://formulae.brew.sh/api/formula.json!</code></li>
+</ol>
+<p>解决：<code>export HOMEBREW_NO_INSTALL_FROM_API=1</code></p>
+<p>参考：<a target="_blank" rel="noopener" href="https://github.com/Homebrew/brew/issues/14516">brew upgrade error #14516</a></p>
+<ol start="2">
+<li>Github pages 报错404无法打开</li>
+</ol>
+<p>解决：清除缓存</p>
+<p>i : 清除Google 浏览器缓存</p>
+<figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">快捷键：Ctrl+<span class="built_in">Shift</span>+<span class="built_in">Del</span> </span><br></pre></td></tr></table></figure>
+
+<p>ii ：清除Hexo本地缓存</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure>
+
+<p>参考：<a target="_blank" rel="noopener" href="https://docs.github.com/zh/pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites#githubs-status-page">官方文档</a></p>
+<p>3）<code>dyld[69655]: Library not loaded: /usr/local/opt/icu4c/lib/libicuio.72.dylib</code></p>
+<p>这个不是搭建博客遇到的问题，而是第二天在工作项目中arc diff时出现的问题。</p>
+<p>参考网上教程，进行了一通操作，才解决。</p>
+<p>解决步骤：</p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">brew upgrade <span class="comment">//没用</span></span><br><span class="line"></span><br><span class="line">brew reinstall icu4c <span class="comment">//没用</span></span><br><span class="line"></span><br><span class="line">brew upgrade node <span class="comment">//没用</span></span><br><span class="line"></span><br><span class="line">brew <span class="keyword">switch</span> icu4c &lt;<span class="keyword">version</span>&gt;  <span class="comment">//没用 （switch → link）</span></span><br></pre></td></tr></table></figure>
+
+<p>参考：<a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/53828891/dyld-library-not-loaded-usr-local-opt-icu4c-lib-libicui18n-62-dylib-error-run">arc diff报错</a></p>
+<p>再仔细看了一下报错，发现问题原因是php的版本不匹配，需要升级到8.0。</p>
+<p>于是：<code>brew install php@8.0</code></p>
+<p>发现：<code>Error: php@8.0 has been disabled because it is a versioned formula!</code></p>
+<p>解决：<code>brew install shivammathur/php/php@8.0</code></p>
+<p>参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/tekin_cn/article/details/135318376">brew install php@8.0报错</a></p>
+<h3 id="5-总结"><a href="#5-总结" class="headerlink" title="5. 总结"></a>5. 总结</h3><p>解决问题步骤：</p>
+<p>1）读懂问题：学会看报错；</p>
+<p>2）搜索引擎：Google &gt; Baidu，官方文档 &gt; github &gt; stackoverflow &gt; 国内博客；</p>
+<p>3）网友朋友：网上文章下留言，或者问认识的朋友。</p>
+<p>参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/114195340">GitHub Pages + Hexo免费搭建个人博客_Mac</a></p>
 
     </div>
 <div>
@@ -313,7 +404,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>Post link: </strong>
-      <a href="https://shiyiqing.github.io/posts/uncategorized/undefined.html" title="">https://shiyiqing.github.io/posts/uncategorized/undefined.html</a>
+      <a href="https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html" title="Hexo系列2：Hexo+GitHub Pages安装部署（MAC）">https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html</a>
   </li>
   <li class="post-copyright-license">
       <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
@@ -321,13 +412,19 @@
 </ul>
 </div>
 
+          <div class="post-tags">
+              <a href="/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
+              <a href="/tags/MAC/" rel="tag"><i class="fa fa-tag"></i> MAC</a>
+              <a href="/tags/GitHub-Pages/" rel="tag"><i class="fa fa-tag"></i> GitHub-Pages</a>
+              <a href="/tags/Token/" rel="tag"><i class="fa fa-tag"></i> Token</a>
+          </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/posts/Blog-Building/Why-choose-Hexo.html" rel="prev" title="Hexo+Github搭建博客系列1：为什么选择Hexo？">
-                  <i class="fa fa-angle-left"></i> Hexo+Github搭建博客系列1：为什么选择Hexo？
+                <a href="/posts/Blog-Building/Why-choose-Hexo-and-GitHub-Pages.html" rel="prev" title="Hexo系列1：为什么选择Hexo+GitHub Pages">
+                  <i class="fa fa-angle-left"></i> Hexo系列1：为什么选择Hexo+GitHub Pages
                 </a>
             </div>
             <div class="post-nav-item">
