@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>第一篇个人博客</title>
-    <url>/posts/website-building-course/first-blog.html</url>
-    <content><![CDATA[<h3 id="目录一"><a href="#目录一" class="headerlink" title="目录一"></a>目录一</h3><p>–</p>
-<h3 id="henxihua"><a href="#henxihua" class="headerlink" title="henxihua"></a>henxihua</h3><p> gengxin</p>
-<p>title: 是以倾<br>subtitle: “iOS开发工程师”<br>description: “实践是检验真理的唯一标准”<br>keywords:<br>author: shiyiqing<br>language: en<br>timezone: “”</p>
-<h1 id="URL"><a href="#URL" class="headerlink" title="URL"></a>URL</h1><h2 id="Set-your-site-url-here-For-example-if-you-use-GitHub-Page-set-url-as-‘https-username-github-io-project‘"><a href="#Set-your-site-url-here-For-example-if-you-use-GitHub-Page-set-url-as-‘https-username-github-io-project‘" class="headerlink" title="Set your site url here. For example, if you use GitHub Page, set url as ‘https://username.github.io/project‘"></a>Set your site url here. For example, if you use GitHub Page, set url as ‘<a href="https://username.github.io/project">https://username.github.io/project</a>‘</h2><p>url: <a href="https://shiyiqing.github.io/">https://shiyiqing.github.io/</a><br>permalink: :year&#x2F;:month&#x2F;:day&#x2F;:title&#x2F;<br>permalink_defaults:<br>pretty_urls:<br>  trailing_index: true # Set to false to remove trailing ‘index.html’ from permalinks<br>  trailing_html: true # Set to false to remove trailing ‘.html’ from permalinks</p>
-<p>sitemap:<br>    path: sitemap.xml</p>
-<p>这是一个链接 <a href="https://www.runoob.com/">菜鸟教程</a></p>
-<p><a href="http://www.google.com/">Google</a></p>
-]]></content>
-      <categories>
-        <category>建站教程</category>
-      </categories>
-      <tags>
-        <tag>Hello</tag>
-        <tag>World</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
-    <url>/posts/uncategorized/undefined.html</url>
+    <url>/posts/Blog-Building/hello-world.html</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -35,6 +16,108 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>Blog-Building</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo+Github搭建博客系列1：为什么选择Hexo？</title>
+    <url>/posts/Blog-Building/Why-choose-Hexo.html</url>
+    <content><![CDATA[<h2 id="1-为什么搭建个人博客"><a href="#1-为什么搭建个人博客" class="headerlink" title="1. 为什么搭建个人博客"></a>1. 为什么搭建个人博客</h2><p>其实在大学期间就有写博客的想法，工作以后逐渐认识到文档沉淀的重要性，自己平时也有用notion、印象笔记、小红书记录的习惯。建站的导火索就是在小红书平台发的一篇完全原创的笔记，被判包含违规营销内容。于是下定决心自己搭一个博客。</p>
+<p>个人博客好处：无需平台审核、没有外链限制、自定义主题等。</p>
+<h2 id="2-我的需求："><a href="#2-我的需求：" class="headerlink" title="2. 我的需求："></a>2. 我的需求：</h2><ul>
+<li>支持markdown格式。</li>
+<li>丰富的主题和插件。</li>
+<li>社区成员多且活跃。</li>
+<li>简单迅速成本低。</li>
+</ul>
+<h2 id="3-主流博客框架"><a href="#3-主流博客框架" class="headerlink" title="3. 主流博客框架"></a>3. 主流博客框架</h2><ul>
+<li>博客三方平台：博客园、CSDN、简书、掘金、知乎专栏、segmentFault、开源中国、腾讯云社区、阿里云云栖社区。</li>
+<li>博客自建框架：WordPress、Typecho、Ghost（动态框架）、Hexo、Jekyll、Hugo、vuepress、notion(静态框架)。</li>
+<li>自己写。</li>
+</ul>
+<h3 id="3-1-动态框架和静态框架的区别"><a href="#3-1-动态框架和静态框架的区别" class="headerlink" title="3.1 动态框架和静态框架的区别"></a>3.1 动态框架和静态框架的区别</h3><p>动态框架，即用户每一次交互，都会从数据库获取数据来动态渲染网页。动态框架需要一个云服务器，不仅能实现个人博客，还可以搭建商用网站。</p>
+<p>静态框架，即本地生成静态页面，然后托管到服务器上自动运行渲染网页。静态框架不需要云服务器。</p>
+<h3 id="3-2-博客框架市场占有率"><a href="#3-2-博客框架市场占有率" class="headerlink" title="3.2 博客框架市场占有率"></a>3.2 博客框架市场占有率</h3><p>美国博客框架排名前三为WordPress、Blogger和Tumblr。</p>
+<p>国内博客框架排名前三为WordPress、Hexo和Ghost。</p>
+<p>数据来源：<a href="https://pro.builtwith.com/">builtwith</a></p>
+<p>更多内容详见：</p>
+<p><a href="https://justgoidea.com/posts/2023-056/">1)博客的发展简史和框架简介</a></p>
+<p><a href="https://ednovas.xyz/2021/07/03/blog/">2)如何挑选博客框架、在线博客平台</a></p>
+<h2 id="4-WordPress-or-Hexo？"><a href="#4-WordPress-or-Hexo？" class="headerlink" title="4. WordPress or Hexo？"></a>4. WordPress or Hexo？</h2><h3 id="4-1-WordPress"><a href="#4-1-WordPress" class="headerlink" title="4.1 WordPress"></a>4.1 <a href="https://wordpress.org/">WordPress</a></h3><p>WordPress是一个基于 PHP 和 MysQL 的动态博客框架。</p>
+<p>WordPress允许用户创建和管理自己的网站，是一个功能强大的内容管理系统（CMS）。它的动态展示分为3个阶段，初始化(资源加载)、准备数据和渲染。</p>
+<p>优点：</p>
+<ul>
+<li>具有很高的扩展性，适合做一些功能较为复杂的网站。</li>
+<li>拥有后台管理界面，可以实现用户注册等功能。</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>主题偏商业化。</li>
+<li>需要有云服务器的支持，对云服务器的带宽有一定的要求。</li>
+<li>相较于静态博客，动态博客更加容易受到攻击和崩溃。</li>
+</ul>
+<h3 id="4-2-Hexo"><a href="#4-2-Hexo" class="headerlink" title="4.2 Hexo"></a>4.2 <a href="https://hexo.io/zh-cn/">Hexo</a></h3><p>Hexo 是一个基于Node.js的快速、简洁且高效的静态博客框架。</p>
+<p>Hexo 的工作原理是将用户编写的Markdown 文件转换为HTML 文件，然后渲染生成静态网站。 </p>
+<p>优点：</p>
+<ul>
+<li>极速生成静态页面。</li>
+<li>md文档格式，方便备份和转移。</li>
+<li>不需要云服务器，不用担心数据库和空间的安全性。</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>评论、分享等功能依赖于第三方插件。</li>
+<li>每次更新博客需要重新部署至GitHub。</li>
+<li>配置都在本地，如果换电脑，需要重新配置环境。</li>
+</ul>
+<p>参考：<a href="https://www.zhihu.com/question/53068081">wordpress和hexo哪个更适合用来搭建个人博客？</a></p>
+<h2 id="5-GitHub-Page"><a href="#5-GitHub-Page" class="headerlink" title="5. GitHub Page"></a>5. GitHub Page</h2><p>静态博客的托管服务可用GitHub、Coding、Gitee、Netlify、Vercel等。这些服务都是基于 Git的，将博客源码存放在平台，托管服务自动拉取并构建网页。因为平时用github比较多，就选择了Github Pages来托管博客。</p>
+<p>Github Pages：简称 pages 服务，每个仓库都有一个pages 服务，可用来展示项目，通过简单的设置项目的index.html，并以此做为入口供用户参观访问。</p>
+<p>缺点：</p>
+<ul>
+<li>GitHub Pages 源存储库的建议限制为 1 GB。</li>
+<li>已发布的 GitHub Pages 网站不得大于 1 GB。</li>
+<li>如果 GitHub Pages 部署时间超过 10 分钟，则会超时。</li>
+<li>GitHub Pages 网站的软带宽限制为每月 100 GB。</li>
+<li>GitHub Pages 站点的软限制为每小时 10 次构建。</li>
+</ul>
+<p>详见官方文档：<a href="help.github.com/en/articles/what-is-github-pages#usage-limits">使用限制</a></p>
+<p>参考：<a href="https://hexo.fluid-dev.com/posts/hexo-static/">常见静态网站托管平台使用及多节点部署方案</a></p>
+<h2 id="6-总结"><a href="#6-总结" class="headerlink" title="6. 总结"></a>6. 总结</h2><p>除了Hexo+GitHub Pages，还有许多其他的优秀的博客搭建方式。根据自己的需求和技术水平选择合适的工具就可以了。一定记住首先看官方文档。</p>
+]]></content>
+      <categories>
+        <category>Blog-Building</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+        <tag>GitHub-Page</tag>
+        <tag>MAC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/posts/uncategorized/undefined.html</url>
+    <content><![CDATA[<p>使用Hexo的大致流程为：<br>1.安装依赖环不境 (Node.js和 Git)</p>
+<ol>
+<li>安装Hexo</li>
+<li>创建博客项目</li>
+<li>添加文章</li>
+<li>修改配置（主题、网站信息等）</li>
+<li>生成网页<br>7.部署</li>
+</ol>
+<p>自定义配置<br>••站点配置：根目录下 config. yml 文件；<br>•主题配置：主题根目录下_config- yml 文件；<br>心得体会</p>
+<p>安装<br>•cit：官网<br>• Nodejs： 官网<br>• Hexo: npm install -g hexo-cli<br>使用<br>。初始化：npm init<br>•安装模块：npm instal1<br>•新文章：hexo newmm<br>•清除生成：hexo clean<br>•生成页面：hexo g<br>•启动服务：hexos<br>。部署：hexo d<br>%. Mculover556</p>
+<p>基本配置<br>•域名：mculover666.cn<br>•国内分流：mculover666.coding.me<br>•境外分流：mculover666.github.io<br>。平台：Coding + Github双平台部署<br>。框架：Hexo v3.8.0<br>•主题：Next.Pisces v7.1.1<br>•评论系统：Valine<br>。搜索服务：Local Search<br>•站点统计：不蒜子<br>。数据统计：百度统计<br>。内容分享：百度分享<br>•公式服务：MathJax<br>。音乐服务：网易云音乐<br>•。背景效果：点击鼠标浮现爱心＋社会主义核心价值观</p>
+<p>正文<br>如何搭建<br>先用hexo搭建一个本地的博客网站<br>hexo官网 写的非常详细。一说到看官方文档就想到尤大说的一句话：〞对于学习技术而言，看官方文档就完全足够了，但是很多人就是不看〞。对此，我只想说确实是这样，但是有个前提是你得先对这个技术有个大概的了解，所以我通常会先看下别人出的教程，看下别人写的demo，再回过头来看官方文档。<br>官方文档中详细描述了整个过程：安装-＞初始化一＞启动一＞部署。<br>•安装hexo脚手架：<br>§ npm instal1 hexo-cli -g<br>• #Jt#lthexomE:<br>$ hexo init blog $ ed blog<br>§ nom install<br>•启动hexo项目：<br>§ hexo server<br>然后你就可以看到如下效果：</p>
+<p>搭建歩骤<br>环境搭建<br>•安装node.js<br>•安装git<br>•安装Hexo<br>•初始化Hexo<br>•构建Hexo<br>•启动Hexo内建服务器<br>部署Hexo到远程平台<br>•GitHub创建仓库<br>•安装hexo-deployer-git<br>•修改本地配置文件<br>•github SSH的配置<br>•复制密钥到github<br>•验证是否配置成功<br>•访问自己的博客</p>
+<p><img data-src="/image.png" alt="alt text"></p>
+<p>hexo安装中出现的问题<br>1.出错描述<br>node: relocation error: node: symbol ssI_set_cert_cb, version 1ibss1 .so .:<br>亲测有效：解决方案<br>2.万能方法<br>回使用搜索引擎，如百度，Google（建议自己搭梯子）等，很大一部分问题都能得到解决；<br>回学会读异常，如在配置_contig yml文件时，经常会因为没有输入空格，导致网站无法显示，但是在hexog是会提示第几行第几列出错的，要注意仔细阅读，并以此类推。<br>◎上面两种方法均无法解决问题，试了很多方法并不能奏效时，可是尝试向朋友或者相关博客中的作者提问，得到解决方案，做技术的在有人向他提问题时，除非是不动脑子的问题，一般都会回答你。如果大家在博客搭建中有相关问题，我们也可以一起讨论，文后有我公众号地址。</p>
 ]]></content>
   </entry>
 </search>

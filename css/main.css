@@ -2120,15 +2120,6 @@ pre code {
   flex-direction: column;
   justify-content: center;
 }
-.post-eof {
-  background: #ccc;
-  height: 1px;
-  margin: 80px auto 60px;
-  width: 8%;
-}
-.post-block:last-of-type .post-eof {
-  display: none;
-}
 .post-copyright ul {
   list-style: none;
   overflow: hidden;
@@ -2766,4 +2757,11 @@ header.header {
 .giscus {
   max-width: unset;
   box-sizing: border-box;
+}
+.post-block {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  padding: 35px;
+  -webkit-box-shadow: 0 0 24px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
