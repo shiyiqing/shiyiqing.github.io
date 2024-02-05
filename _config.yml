@@ -85,18 +85,13 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-    每日一题: one-question-per-day
-    建站教程: website-building-course
-    学习笔记: study-notes
-    技术分享: technology-sharing
 tag_map:
-    C语言: C-Programming-Language
-    学习笔记: study-notes
-    建站教程: website-building-course
-    技术分享: technology-sharing
-    每日一题: one-question-per-day
+    前沿技术: advanced-technology
+    面试题: interview-questions
+    区块链: Blockchain
+    大数据: Big-Data
+    数据库: Database
     域名: domain-name
-    
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -216,10 +211,8 @@ encrypt: # hexo-blog-encrypt
   wrong_hash_message: Sorry, the current article cannot be verified, but you can still view the decrypted content.
 
 excerpt:
-  depth: 4
+  depth: 1
   excerpt_excludes: []
   more_excludes: []
   hideWholePostExcerpts: true
-
-
 
