@@ -6,7 +6,7 @@
   <link href="https://shiyiqing.github.io/atom.xml" rel="self"/>
   
   <link href="https://shiyiqing.github.io/"/>
-  <updated>2024-02-05T10:31:13.104Z</updated>
+  <updated>2024-02-06T07:26:46.974Z</updated>
   <id>https://shiyiqing.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hexo系列2：Hexo+GitHub Pages安装部署（MAC）</title>
-    <link href="https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html"/>
-    <id>https://shiyiqing.github.io/posts/Blog-Building/How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC).html</id>
+    <title>Hexo系列2：安装部署 Hexo+GitHub Pages（MAC）</title>
+    <link href="https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html"/>
+    <id>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</id>
     <published>2024-02-04T11:56:21.285Z</published>
-    <updated>2024-02-05T10:31:13.104Z</updated>
+    <updated>2024-02-06T07:26:46.974Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;0-前言&quot;&gt;&lt;a href=&quot;#0-前言&quot; class=&quot;headerlink&quot; title=&quot;0. 前言&quot;&gt;&lt;/a&gt;0. 前言&lt;/h3&gt;</summary>
@@ -33,20 +33,20 @@
     
     <category term="Hexo" scheme="https://shiyiqing.github.io/tags/Hexo/"/>
     
-    <category term="MAC" scheme="https://shiyiqing.github.io/tags/MAC/"/>
-    
     <category term="GitHub-Pages" scheme="https://shiyiqing.github.io/tags/GitHub-Pages/"/>
     
     <category term="Token" scheme="https://shiyiqing.github.io/tags/Token/"/>
+    
+    <category term="MAC" scheme="https://shiyiqing.github.io/tags/MAC/"/>
     
   </entry>
   
   <entry>
     <title>Hexo系列1：为什么选择Hexo+GitHub Pages</title>
-    <link href="https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo-and-GitHub-Pages.html"/>
-    <id>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo-and-GitHub-Pages.html</id>
+    <link href="https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html"/>
+    <id>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</id>
     <published>2024-02-01T16:02:01.389Z</published>
-    <updated>2024-02-05T02:53:05.932Z</updated>
+    <updated>2024-02-06T07:32:56.409Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-为什么搭建个人博客&quot;&gt;&lt;a href=&quot;#1-为什么搭建个人博客&quot; class=&quot;headerlink&quot; title=&quot;1. 为什么搭建个人博客&quot;&gt;&lt;/a&gt;1. 为什么搭建个人博客&lt;/h2&gt;</summary>
