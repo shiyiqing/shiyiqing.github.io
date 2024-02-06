@@ -1,6 +1,6 @@
 ---
-title: Hexo系列2：Hexo+GitHub Pages安装部署（MAC）
-urlname: How-to-Install-and-Deploy-Hexo-and-GitHub-Pages(MAC)
+title: Hexo系列2：安装部署 Hexo+GitHub Pages（MAC）
+urlname: Install-and-Deploy-Hexo+GitHub(MAC)
 tags:
   - Hexo
   - GitHub-Pages
@@ -77,7 +77,7 @@ ctrl + c 断开链接，新建博文：
 
 1） 创建 `yourname.github.io` 仓库
 
-进入[GitHub官网](https://github.com),新建一个公开的名为 `yourname.github.io`  的仓库(yourname为你的用户名)。
+进入[GitHub官网](https://github.com),新建一个公开的名为 `yourname.github.io`  的仓库(yourname为你的用户名)。例如：[我的仓库地址](https://github.com/shiyiqing/shiyiqing.github.io)
 
 2）GitHub生成Token
 
@@ -85,7 +85,7 @@ ctrl + c 断开链接，新建博文：
 
 账户右上角头像—＞Settings—＞Developer Settings—＞Personal Access Tokens(classic)—＞Generate New Token(classic)—＞设置Token名称、到期时间、权限（repo勾上）—＞Generate Token—＞复制Token（**离开当前页面，将无法再看到它！！！**）
 
-### 3. 部署Hexo到GitHub Pages
+### 3. 部署到GitHub Pages
 
 1) 安装部署插件
 
@@ -102,8 +102,8 @@ i : 打开Hexo配置文件 : _config.yml
 ii : 修改repo为[2.  GitHub Pages](#jump)创建的仓库地址
 
 ```
-\# Deployment
-\#\# Docs: https://hexo.io/docs/deployment.html
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/yourname/yourname.github.io.git //将yourname替换成你的用户名
@@ -121,15 +121,15 @@ hexo d
 
 博客网址：`https://github.com/yourname/yourname.github.io` 
 
-### 4. 博客搭建过程中出现的问题
+### 4. 遇到的问题
 
-1) `Error: Cannot download non-corrupt https://formulae.brew.sh/api/formula.json!`
+1） Error: Cannot download non-corrupt https://formulae.brew.sh/api/formula.json!
 
 解决：`export HOMEBREW_NO_INSTALL_FROM_API=1`
 
 参考：[brew upgrade error #14516](https://github.com/Homebrew/brew/issues/14516)
 
-2) Github pages 报错404无法打开
+2） Github pages 报错404无法打开
 
 解决：清除缓存
 
@@ -147,7 +147,7 @@ hexo clean
 
 参考：[官方文档](https://docs.github.com/zh/pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites#githubs-status-page)
 
-3）`dyld[69655]: Library not loaded: /usr/local/opt/icu4c/lib/libicuio.72.dylib`
+3）dyld[69655]: Library not loaded: /usr/local/opt/icu4c/lib/libicuio.72.dylib
 
 这个不是搭建博客遇到的问题，而是第二天在工作项目中arc diff时出现的问题。
 
@@ -170,7 +170,7 @@ brew switch icu4c <version>  //没用 （switch → link）
 
 于是：`brew install php@8.0`
 
-发现：`Error: php@8.0 has been disabled because it is a versioned formula!`
+报错：`Error: php@8.0 has been disabled because it is a versioned formula!`
 
 解决：`brew install shivammathur/php/php@8.0`
 
@@ -186,5 +186,7 @@ brew switch icu4c <version>  //没用 （switch → link）
 
 3）网友朋友：网上文章下留言，或者问认识的朋友。
 
-参考：[GitHub Pages + Hexo免费搭建个人博客_Mac](https://zhuanlan.zhihu.com/p/114195340)
+### 参考资料
+
+[1]  笑胖仔 , (2020-04-18) , GitHub Pages + Hexo免费搭建个人博客_Mac , [知乎专栏] , https://zhuanlan.zhihu.com/p/114195340
 
