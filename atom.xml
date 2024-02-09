@@ -6,7 +6,7 @@
   <link href="https://shiyiqing.github.io/atom.xml" rel="self"/>
   
   <link href="https://shiyiqing.github.io/"/>
-  <updated>2024-02-06T07:26:46.974Z</updated>
+  <updated>2024-02-09T15:26:27.609Z</updated>
   <id>https://shiyiqing.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html"/>
     <id>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</id>
     <published>2024-02-04T11:56:21.285Z</published>
-    <updated>2024-02-06T07:26:46.974Z</updated>
+    <updated>2024-02-09T15:26:27.609Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;0-前言&quot;&gt;&lt;a href=&quot;#0-前言&quot; class=&quot;headerlink&quot; title=&quot;0. 前言&quot;&gt;&lt;/a&gt;0. 前言&lt;/h3&gt;</summary>
+    <summary type="html">&lt;p&gt;一篇介绍如何在Mac上安装部署Hexo+GitHub Pages的文章。&lt;/p&gt;</summary>
     
     
     
@@ -46,10 +46,10 @@
     <link href="https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html"/>
     <id>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</id>
     <published>2024-02-01T16:02:01.389Z</published>
-    <updated>2024-02-06T07:32:56.409Z</updated>
+    <updated>2024-02-09T14:57:22.856Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-为什么搭建个人博客&quot;&gt;&lt;a href=&quot;#1-为什么搭建个人博客&quot; class=&quot;headerlink&quot; title=&quot;1. 为什么搭建个人博客&quot;&gt;&lt;/a&gt;1. 为什么搭建个人博客&lt;/h2&gt;</summary>
+    <summary type="html">&lt;p&gt;一篇介绍为什么选用Hexo+GitHub Pages的方式搭建个人博客的文章。&lt;/p&gt;</summary>
     
     
     
@@ -67,7 +67,7 @@
     <link href="https://shiyiqing.github.io/posts/Blog-Building/hello-world.html"/>
     <id>https://shiyiqing.github.io/posts/Blog-Building/hello-world.html</id>
     <published>2024-02-01T15:57:56.409Z</published>
-    <updated>2024-02-04T06:42:42.004Z</updated>
+    <updated>2024-02-08T05:06:22.108Z</updated>
     
     
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>

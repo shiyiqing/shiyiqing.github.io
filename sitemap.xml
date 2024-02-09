@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</loc>
+    <loc>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</loc>
     
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</loc>
+    <loc>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</loc>
     
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,7 +22,7 @@
   <url>
     <loc>https://shiyiqing.github.io/posts/Blog-Building/hello-world.html</loc>
     
-    <lastmod>2024-02-04</lastmod>
+    <lastmod>2024-02-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://shiyiqing.github.io/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,28 +75,28 @@
   
   <url>
     <loc>https://shiyiqing.github.io/tags/Hexo/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://shiyiqing.github.io/tags/GitHub-Pages/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://shiyiqing.github.io/tags/Token/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://shiyiqing.github.io/tags/MAC/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -105,7 +105,7 @@
   
   <url>
     <loc>https://shiyiqing.github.io/categories/Blog-Building/</loc>
-    <lastmod>2024-02-06</lastmod>
+    <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

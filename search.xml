@@ -3,75 +3,63 @@
   <entry>
     <title>Hexo系列2：安装部署 Hexo+GitHub Pages（MAC）</title>
     <url>/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</url>
-    <content><![CDATA[<h3 id="0-前言"><a href="#0-前言" class="headerlink" title="0. 前言"></a>0. 前言</h3><p>准备：</p>
+    <content><![CDATA[<p>一篇介绍如何在Mac上安装部署Hexo+GitHub Pages的文章。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>准备：</p>
 <ul>
 <li>一台Mac</li>
 <li>已安装Git</li>
 <li>已安装Homebrew</li>
 <li>已创建GitHub账号</li>
 </ul>
-<h3 id="1-Hexo"><a href="#1-Hexo" class="headerlink" title="1.  Hexo"></a>1.  Hexo</h3><p>安装Hexo的大致流程为：安装—＞初始化一＞启动一＞写博客一＞部署</p>
-<p>1） 安装依赖环境</p>
-<figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">brew install <span class="keyword">node</span><span class="title"></span></span><br></pre></td></tr></table></figure>
-<p>2） 安装Hexo</p>
-<figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-<span class="keyword">cli</span> </span><br></pre></td></tr></table></figure>
+<h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><p>安装Hexo的大致流程为：安装—＞初始化一＞启动一＞写博客一＞部署</p>
+<h3 id="安装依赖环境"><a href="#安装依赖环境" class="headerlink" title="安装依赖环境"></a>安装依赖环境</h3><figure class="highlight crmsh"><table><tr><td class="code"><pre><span class="line">brew install <span class="keyword">node</span><span class="title"></span></span><br></pre></td></tr></table></figure>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight avrasm"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-<span class="keyword">cli</span> </span><br></pre></td></tr></table></figure>
 
-<p>3） 初始化</p>
-<figure class="highlight stata"><table><tr><td class="code"><pre><span class="line"><span class="keyword">mkdir</span> blog</span><br><span class="line"><span class="keyword">cd</span> blog <span class="comment">//一定要在blog目录下</span></span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+<h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><figure class="highlight stata"><table><tr><td class="code"><pre><span class="line"><span class="keyword">mkdir</span> blog</span><br><span class="line"><span class="keyword">cd</span> blog <span class="comment">//一定要在blog目录下</span></span><br><span class="line">hexo init</span><br></pre></td></tr></table></figure>
 
-<p>4） 启动</p>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
 
-<p>在浏览器输入：<a href="http://localhost:4000/">http://localhost:4000</a>，可以看到一篇默认博客Hello World</p>
-<p>5） 写博客</p>
-<p>ctrl + c 断开链接，新建博文：</p>
+<p>在浏览器输入：<a href="http://localhost:4000/">http://localhost:4000</a>，可以看到一篇默认博客<code>Hello World</code></p>
+<h3 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h3><p>ctrl + c 断开链接，新建博文：</p>
 <figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line">创建新博客：hexo <span class="keyword">new</span> <span class="string">&quot;my first blog&quot;</span></span><br></pre></td></tr></table></figure>
 
-<p>可以看到，在目录blog&#x2F;source&#x2F;_posts下生成了一个my first blog.md文件，这就是你的博客，编辑该文件</p>
+<p>可以看到，在目录<code>blog/source/_posts</code>下生成了一个<code>my first blog.md</code>文件，这就是你的博客，编辑该文件</p>
 <p>可以编写边调试看效果：</p>
 <figure class="highlight excel"><table><tr><td class="code"><pre><span class="line">清理生成： hexo <span class="built_in">clean</span> </span><br><span class="line">生成页面： hexo g</span><br><span class="line">启动服务： hexo s</span><br></pre></td></tr></table></figure>
 
-<p>6） 部署</p>
-<p>本地博客部署到GitHub Pages，需要先在GitHub建一个仓库，然后生成一个Token来保证本地的博客能推送到远端。</p>
-<h3 id="2-GitHub-Pages"><a href="#2-GitHub-Pages" class="headerlink" title="2.  GitHub Pages"></a>2.  <span id="jump">GitHub Pages</span></h3><p>1） 创建 <code>yourname.github.io</code> 仓库</p>
-<p>进入<a href="https://github.com/">GitHub官网</a>,新建一个公开的名为 <code>yourname.github.io</code>  的仓库(yourname为你的用户名)。例如：<a href="https://github.com/shiyiqing/shiyiqing.github.io">我的仓库地址</a></p>
-<p>2）GitHub生成Token</p>
-<p>生成Token步骤为：</p>
-<p>账户右上角头像—＞Settings—＞Developer Settings—＞Personal Access Tokens(classic)—＞Generate New Token(classic)—＞设置Token名称、到期时间、权限（repo勾上）—＞Generate Token—＞复制Token（<strong>离开当前页面，将无法再看到它！！！</strong>）</p>
-<h3 id="3-部署到GitHub-Pages"><a href="#3-部署到GitHub-Pages" class="headerlink" title="3. 部署到GitHub Pages"></a>3. 部署到GitHub Pages</h3><ol>
-<li>安装部署插件</li>
-</ol>
-<p>ctrl + c 断开链接，在blog目录下：</p>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>本地博客部署到 GitHub Pages，需要先在 GitHub 建一个仓库，然后生成一个<code>Token</code>来保证本地的博客能推送到远端。</p>
+<h2 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a><span id="jump">GitHub Pages</span></h2><h3 id="创建-yourname-github-io-仓库"><a href="#创建-yourname-github-io-仓库" class="headerlink" title="创建 yourname.github.io 仓库"></a>创建 yourname.github.io 仓库</h3><p>进入<a href="https://github.com/">GitHub官网</a>,新建一个公开的名为 <code>yourname.github.io</code>  的仓库(yourname为你的用户名)。例如：<a href="https://github.com/shiyiqing/shiyiqing.github.io">我的仓库地址</a></p>
+<h3 id="GitHub生成Token"><a href="#GitHub生成Token" class="headerlink" title="GitHub生成Token"></a>GitHub生成Token</h3><p>生成 Token 步骤为：</p>
+<p>点击<code>账户右上角头像</code> —＞ <code>Settings</code> —＞ <code>Developer Settings</code> —＞ <code>Personal Access Tokens(classic)</code> —＞ <code>Generate New Token(classic)</code> —＞ 设置<code>Token名称</code>、<code>到期时间</code>、<code>权限</code>（repo勾上） —＞ <code>Generate Token</code> —＞ 复制<code>Token</code>（<strong>离开当前页面，将无法再看到它！！！</strong>）</p>
+<h2 id="部署到GitHub-Pages"><a href="#部署到GitHub-Pages" class="headerlink" title="部署到GitHub Pages"></a>部署到GitHub Pages</h2><h3 id="安装部署插件"><a href="#安装部署插件" class="headerlink" title="安装部署插件"></a>安装部署插件</h3><p><code>ctrl + c</code> 断开链接，在<code>blog</code>目录下：</p>
 <figure class="highlight ada"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git <span class="comment">--save</span></span><br></pre></td></tr></table></figure>
 
-<ol start="2">
-<li>修改hexo配置</li>
-</ol>
-<p>i : 打开Hexo配置文件 : _config.yml</p>
-<p>ii : 修改repo为<a href="#jump">2.  GitHub Pages</a>创建的仓库地址</p>
+<h3 id="修改-hexo-配置"><a href="#修改-hexo-配置" class="headerlink" title="修改 hexo 配置"></a>修改 hexo 配置</h3><ul>
+<li><p>打开 Hexo 配置文件 : <code>_config.yml</code></p>
+</li>
+<li><p>修改 repo 为<a href="#jump">2.  GitHub Pages</a>创建的仓库地址</p>
+</li>
+</ul>
 <figure class="highlight dts"><table><tr><td class="code"><pre><span class="line"><span class="meta"># Deployment</span></span><br><span class="line"><span class="meta">## Docs: https:<span class="comment">//hexo.io/docs/deployment.html</span></span></span><br><span class="line"><span class="symbol">deploy:</span></span><br><span class="line"><span class="symbol">  type:</span> git</span><br><span class="line"><span class="symbol">  repo:</span> https:<span class="comment">//github.com/yourname/yourname.github.io.git //将yourname替换成你的用户名</span></span><br><span class="line"><span class="symbol">  branch:</span> master</span><br></pre></td></tr></table></figure>
-<ol start="3">
-<li>部署到远端</li>
-</ol>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
+<h3 id="部署到远端"><a href="#部署到远端" class="headerlink" title="部署到远端"></a>部署到远端</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
 
-<p>中间会让输入github用户名和密码，密码用<a href="#jump">2.  GitHub Pages</a>生成的Token代替。</p>
-<p>4）访问博客</p>
-<p>博客网址：<code>https://github.com/yourname/yourname.github.io</code> </p>
-<h3 id="4-遇到的问题"><a href="#4-遇到的问题" class="headerlink" title="4. 遇到的问题"></a>4. 遇到的问题</h3><p>1） Error: Cannot download non-corrupt <a href="https://formulae.brew.sh/api/formula.json">https://formulae.brew.sh/api/formula.json</a>!</p>
-<p>解决：<code>export HOMEBREW_NO_INSTALL_FROM_API=1</code></p>
+<p>中间会让输入 <code>github 用户名和密码</code>，密码用<a href="#jump">2.  GitHub Pages</a>生成的<code>Token</code>代替。</p>
+<h3 id="访问博客"><a href="#访问博客" class="headerlink" title="访问博客"></a>访问博客</h3><p>博客网址：<code>https://github.com/yourname/yourname.github.io</code> </p>
+<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><h3 id="Error-Cannot-download-non-corrupt-https-formulae-brew-sh-api-formula-json"><a href="#Error-Cannot-download-non-corrupt-https-formulae-brew-sh-api-formula-json" class="headerlink" title="Error: Cannot download non-corrupt https://formulae.brew.sh/api/formula.json!"></a>Error: Cannot download non-corrupt <a href="https://formulae.brew.sh/api/formula.json">https://formulae.brew.sh/api/formula.json</a>!</h3><p>解决：<code>export HOMEBREW_NO_INSTALL_FROM_API=1</code></p>
 <p>参考：<a href="https://github.com/Homebrew/brew/issues/14516">brew upgrade error #14516</a></p>
-<p>2） Github pages 报错404无法打开</p>
-<p>解决：清除缓存</p>
-<p>i : 清除Google 浏览器缓存</p>
+<h3 id="Github-pages-报错404无法打开"><a href="#Github-pages-报错404无法打开" class="headerlink" title="Github pages 报错404无法打开"></a>Github pages 报错404无法打开</h3><p>解决：清除缓存</p>
+<ul>
+<li>清除Google 浏览器缓存</li>
+</ul>
 <figure class="highlight dos"><table><tr><td class="code"><pre><span class="line">快捷键：Ctrl+<span class="built_in">Shift</span>+<span class="built_in">Del</span> </span><br></pre></td></tr></table></figure>
 
-<p>ii ：清除Hexo本地缓存</p>
+<ul>
+<li>清除Hexo本地缓存</li>
+</ul>
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure>
 
 <p>参考：<a href="https://docs.github.com/zh/pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites#githubs-status-page">官方文档</a></p>
-<p>3）dyld[69655]: Library not loaded: &#x2F;usr&#x2F;local&#x2F;opt&#x2F;icu4c&#x2F;lib&#x2F;libicuio.72.dylib</p>
-<p>这个不是搭建博客遇到的问题，而是第二天在工作项目中arc diff时出现的问题。</p>
+<h3 id="dyld-69655-Library-not-loaded-usr-local-opt-icu4c-lib-libicuio-72-dylib"><a href="#dyld-69655-Library-not-loaded-usr-local-opt-icu4c-lib-libicuio-72-dylib" class="headerlink" title="dyld[69655]: Library not loaded: &#x2F;usr&#x2F;local&#x2F;opt&#x2F;icu4c&#x2F;lib&#x2F;libicuio.72.dylib"></a>dyld[69655]: Library not loaded: &#x2F;usr&#x2F;local&#x2F;opt&#x2F;icu4c&#x2F;lib&#x2F;libicuio.72.dylib</h3><p>这个不是搭建博客遇到的问题，而是第二天在工作项目中arc diff时出现的问题。</p>
 <p>参考网上教程，进行了一通操作，才解决。</p>
 <p>解决步骤：</p>
 <figure class="highlight d"><table><tr><td class="code"><pre><span class="line">brew upgrade <span class="comment">//没用</span></span><br><span class="line"></span><br><span class="line">brew reinstall icu4c <span class="comment">//没用</span></span><br><span class="line"></span><br><span class="line">brew upgrade node <span class="comment">//没用</span></span><br><span class="line"></span><br><span class="line">brew <span class="keyword">switch</span> icu4c &lt;<span class="keyword">version</span>&gt;  <span class="comment">//没用 （switch → link）</span></span><br></pre></td></tr></table></figure>
@@ -82,11 +70,16 @@
 <p>报错：<code>Error: php@8.0 has been disabled because it is a versioned formula!</code></p>
 <p>解决：<code>brew install shivammathur/php/php@8.0</code></p>
 <p>参考：<a href="https://blog.csdn.net/tekin_cn/article/details/135318376">brew install php@8.0报错</a></p>
-<h3 id="5-总结"><a href="#5-总结" class="headerlink" title="5. 总结"></a>5. 总结</h3><p>解决问题步骤：</p>
-<p>1）读懂问题：学会看报错；</p>
-<p>2）搜索引擎：Google &gt; Baidu，官方文档 &gt; github &gt; stackoverflow &gt; 国内博客；</p>
-<p>3）网友朋友：网上文章下留言，或者问认识的朋友。</p>
-<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><p>[1]  笑胖仔 , (2020-04-18) , GitHub Pages + Hexo免费搭建个人博客_Mac , [知乎专栏] , <a href="https://zhuanlan.zhihu.com/p/114195340">https://zhuanlan.zhihu.com/p/114195340</a></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>解决问题步骤：</p>
+<ol>
+<li><p><strong>读懂问题</strong>：学会看报错；</p>
+</li>
+<li><p><strong>搜索引擎</strong>：Google &gt; Baidu，官方文档 &gt; github &gt; stackoverflow &gt; 国内博客；</p>
+</li>
+<li><p><strong>请求帮助</strong>：网上文章下留言，或者问认识的朋友。</p>
+</li>
+</ol>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>[1]  笑胖仔 , (2020-04-18) , GitHub Pages + Hexo免费搭建个人博客_Mac , [知乎专栏] , <a href="https://zhuanlan.zhihu.com/p/114195340">https://zhuanlan.zhihu.com/p/114195340</a></p>
 ]]></content>
       <categories>
         <category>Blog-Building</category>
@@ -101,28 +94,29 @@
   <entry>
     <title>Hexo系列1：为什么选择Hexo+GitHub Pages</title>
     <url>/posts/Blog-Building/Why-choose-Hexo+GitHub.html</url>
-    <content><![CDATA[<h2 id="1-为什么搭建个人博客"><a href="#1-为什么搭建个人博客" class="headerlink" title="1. 为什么搭建个人博客"></a>1. 为什么搭建个人博客</h2><p>其实在大学期间就有写博客的想法，工作以后逐渐认识到文档沉淀的重要性，加上平时有用notion、印象笔记、小红书记录的习惯。建站的导火索就是在小红书发的一篇原创笔记，被判包含违规营销内容。于是下定决心自己搭一个博客。</p>
+    <content><![CDATA[<p>一篇介绍为什么选用Hexo+GitHub Pages的方式搭建个人博客的文章。</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="为什么搭建个人博客"><a href="#为什么搭建个人博客" class="headerlink" title="为什么搭建个人博客"></a>为什么搭建个人博客</h3><p>其实在大学期间就有写博客的想法，工作以后逐渐认识到文档沉淀的重要性，加上平时有用notion、印象笔记、小红书记录的习惯。建站的导火索就是在小红书发的一篇原创笔记，被判包含违规营销内容。于是下定决心自己搭一个博客。</p>
 <p>个人博客好处：无需平台审核、没有外链限制、自定义主题等。</p>
-<h2 id="2-我的需求"><a href="#2-我的需求" class="headerlink" title="2. 我的需求"></a>2. 我的需求</h2><ul>
+<h3 id="我的需求"><a href="#我的需求" class="headerlink" title="我的需求"></a>我的需求</h3><ul>
 <li>支持markdown格式。</li>
 <li>丰富的主题和插件。</li>
 <li>社区成员多且活跃。</li>
 <li>简单迅速成本低。</li>
 </ul>
-<h2 id="3-主流博客框架"><a href="#3-主流博客框架" class="headerlink" title="3. 主流博客框架"></a>3. 主流博客框架</h2><ul>
+<h2 id="主流博客框架"><a href="#主流博客框架" class="headerlink" title="主流博客框架"></a>主流博客框架</h2><ul>
 <li><strong>博客三方平台</strong>：博客园、CSDN、简书、掘金、知乎专栏、segmentFault、开源中国、腾讯云社区、阿里云云栖社区。</li>
 <li><strong>博客自建框架</strong>：WordPress、Typecho、Ghost（动态框架）、Hexo、Jekyll、Hugo、vuepress、notion(静态框架)。</li>
 <li><strong>自己写</strong>。</li>
 </ul>
-<h3 id="3-1-动态框架和静态框架的区别"><a href="#3-1-动态框架和静态框架的区别" class="headerlink" title="3.1 动态框架和静态框架的区别"></a>3.1 动态框架和静态框架的区别</h3><p><strong>动态框架</strong>，即用户每一次交互，都会从<strong>数据库</strong>获取数据来动态渲染网页。动态框架<strong>需要一个云服务器</strong>，不仅能实现个人博客，还可以搭建商用网站。</p>
+<h3 id="动态框架和静态框架的区别"><a href="#动态框架和静态框架的区别" class="headerlink" title="动态框架和静态框架的区别"></a>动态框架和静态框架的区别</h3><p><strong>动态框架</strong>，即用户每一次交互，都会从<strong>数据库</strong>获取数据来动态渲染网页。动态框架<strong>需要一个云服务器</strong>，不仅能实现个人博客，还可以搭建商用网站。</p>
 <p><strong>静态框架</strong>，即本地生成静态页面，然后托管到服务器上自动运行渲染网页。静态框架<strong>不需要云服务器</strong>。</p>
-<h3 id="3-2-博客框架市场占有率"><a href="#3-2-博客框架市场占有率" class="headerlink" title="3.2 博客框架市场占有率"></a>3.2 博客框架市场占有率</h3><p>美国博客框架排名前三为<strong>WordPress、Blogger和Tumblr</strong>。</p>
+<h3 id="博客框架市场占有率"><a href="#博客框架市场占有率" class="headerlink" title="博客框架市场占有率"></a>博客框架市场占有率</h3><p>美国博客框架排名前三为<strong>WordPress、Blogger和Tumblr</strong>。</p>
 <p>国内博客框架排名前三为<strong>WordPress、Hexo和Ghost</strong>。</p>
 <p>数据来源：<a href="https://pro.builtwith.com/">builtwith</a></p>
 <p>更多内容详见：</p>
 <p><a href="https://justgoidea.com/posts/2023-056/">1)博客的发展简史和框架简介</a></p>
 <p><a href="https://ednovas.xyz/2021/07/03/blog/">2)如何挑选博客框架、在线博客平台</a></p>
-<h2 id="4-WordPress-or-Hexo？"><a href="#4-WordPress-or-Hexo？" class="headerlink" title="4. WordPress or Hexo？"></a>4. WordPress or Hexo？</h2><h3 id="4-1-WordPress"><a href="#4-1-WordPress" class="headerlink" title="4.1 WordPress"></a>4.1 <a href="https://wordpress.org/">WordPress</a></h3><p><strong>WordPress</strong>是一个基于 PHP 和 MysQL 的动态博客框架。</p>
+<h2 id="WordPress-or-Hexo？"><a href="#WordPress-or-Hexo？" class="headerlink" title="WordPress or Hexo？"></a>WordPress or Hexo？</h2><h3 id="WordPress"><a href="#WordPress" class="headerlink" title="WordPress"></a>WordPress</h3><p><a href="https://wordpress.org/">WordPress</a>是一个基于 PHP 和 MysQL 的动态博客框架。</p>
 <p><strong>WordPress</strong>允许用户创建和管理自己的网站，是一个功能强大的内容管理系统（CMS）。它的动态展示分为3个阶段，初始化(资源加载)、准备数据和渲染。</p>
 <p><strong>优点：</strong></p>
 <ul>
@@ -135,7 +129,7 @@
 <li>需要有<strong>云服务器</strong>的支持，对云服务器的带宽有一定的要求。</li>
 <li>相较于静态博客，动态博客更加<strong>容易受到攻击和崩溃</strong>。</li>
 </ul>
-<h3 id="4-2-Hexo"><a href="#4-2-Hexo" class="headerlink" title="4.2 Hexo"></a>4.2 <a href="https://hexo.io/zh-cn/">Hexo</a></h3><p><strong>Hexo</strong> 是一个基于Node.js的快速、简洁且高效的静态博客框架。</p>
+<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p><a href="https://hexo.io/zh-cn/">Hexo</a>是一个基于Node.js的快速、简洁且高效的静态博客框架。</p>
 <p><strong>Hexo</strong> 的工作原理是将用户编写的 <strong>Markdown</strong> 文件转换为 <strong>HTML</strong> 文件，然后渲染生成静态网站。 </p>
 <p><strong>优点：</strong></p>
 <ul>
@@ -150,7 +144,7 @@
 <li>配置都在本地，如果换电脑，需要<strong>重新配置环境</strong>。</li>
 </ul>
 <p>参考：<a href="https://www.zhihu.com/question/53068081">wordpress和hexo哪个更适合用来搭建个人博客？</a></p>
-<h2 id="5-GitHub-Pages"><a href="#5-GitHub-Pages" class="headerlink" title="5. GitHub Pages"></a>5. GitHub Pages</h2><p>静态博客的托管服务可用GitHub、Coding、Gitee、Netlify、Vercel等。这些服务都是基于 Git的，将博客源码存放在平台，托管服务自动拉取并构建网页。因为平时用github比较多，就选择了Github Pages来托管博客。</p>
+<h2 id="GitHub-Pages"><a href="#GitHub-Pages" class="headerlink" title="GitHub Pages"></a>GitHub Pages</h2><p>静态博客的托管服务可用GitHub、Coding、Gitee、Netlify、Vercel等。这些服务都是基于 Git的，将博客源码存放在平台，托管服务自动拉取并构建网页。因为平时用github比较多，就选择了Github Pages来托管博客。</p>
 <p><strong>Github Pages</strong>：简称 pages 服务，每个仓库都有一个pages 服务，可用来展示项目，通过简单的设置项目的index.html，并以此做为入口供用户参观访问。</p>
 <p><strong>缺点：</strong></p>
 <ul>
@@ -162,7 +156,7 @@
 </ul>
 <p>详见官方文档：<a href="help.github.com/en/articles/what-is-github-pages#usage-limits">使用限制</a></p>
 <p>参考：<a href="https://hexo.fluid-dev.com/posts/hexo-static/">常见静态网站托管平台使用及多节点部署方案</a></p>
-<h2 id="6-总结"><a href="#6-总结" class="headerlink" title="6. 总结"></a>6. 总结</h2><p>除了Hexo+GitHub Pages，还有许多其他的优秀的博客搭建方式。根据自己的需求和技术水平选择合适的工具就可以了。一定记住首先看官方文档。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>除了Hexo+GitHub Pages，还有许多其他的优秀的博客搭建方式。根据自己的需求和技术水平选择合适的工具就可以了。一定记住首先看官方文档。</p>
 ]]></content>
       <categories>
         <category>Blog-Building</category>
