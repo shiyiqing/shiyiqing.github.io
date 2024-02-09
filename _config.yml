@@ -9,6 +9,7 @@ description: "实践是检验真理的唯一标准"
 keywords:
 author: shiyiqing
 language: en
+//language: zh-CN
 timezone: ""
 
 # URL
@@ -46,6 +47,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - "_data/**"
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -72,6 +75,9 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+  
+
+
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

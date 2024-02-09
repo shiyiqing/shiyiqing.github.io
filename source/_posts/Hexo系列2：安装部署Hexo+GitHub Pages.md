@@ -11,7 +11,9 @@ categories:
 abbrlink: 39009
 ---
 
-### 0. 前言
+一篇介绍如何在Mac上安装部署Hexo+GitHub Pages的文章。
+
+## 前言
 
 准备：
 - 一台Mac
@@ -19,23 +21,23 @@ abbrlink: 39009
 - 已安装Homebrew
 - 已创建GitHub账号
 
-### 1.  Hexo
+## Hexo
 
 安装Hexo的大致流程为：安装—＞初始化一＞启动一＞写博客一＞部署
 
-1） 安装依赖环境
+### 安装依赖环境
 
 ``` 
 brew install node
  ```
  
-2） 安装Hexo
+### 安装Hexo
 
 ```
 npm install -g hexo-cli 
 ```
 
-3） 初始化
+### 初始化
 
 ```
 mkdir blog
@@ -43,15 +45,15 @@ cd blog //一定要在blog目录下
 hexo init
 ```
 
-4） 启动
+### 启动
 
 ```
 hexo s
 ```
 
-在浏览器输入：[http://localhost:4000](http://localhost:4000)，可以看到一篇默认博客Hello World
+在浏览器输入：[http://localhost:4000](http://localhost:4000)，可以看到一篇默认博客`Hello World`
 
-5） 写博客
+### 写博客
 
 ctrl + c 断开链接，新建博文：
 
@@ -59,7 +61,7 @@ ctrl + c 断开链接，新建博文：
 创建新博客：hexo new "my first blog"
 ```
 
-可以看到，在目录blog/source/_posts下生成了一个my first blog.md文件，这就是你的博客，编辑该文件
+可以看到，在目录`blog/source/_posts`下生成了一个`my first blog.md`文件，这就是你的博客，编辑该文件
 
 可以编写边调试看效果：
 
@@ -69,37 +71,37 @@ ctrl + c 断开链接，新建博文：
 启动服务： hexo s
 ```
 
-6） 部署
+### 部署
 
-本地博客部署到GitHub Pages，需要先在GitHub建一个仓库，然后生成一个Token来保证本地的博客能推送到远端。
+本地博客部署到 GitHub Pages，需要先在 GitHub 建一个仓库，然后生成一个`Token`来保证本地的博客能推送到远端。
 
-### 2.  <span id="jump">GitHub Pages</span>
+##  <span id="jump">GitHub Pages</span>
 
-1） 创建 `yourname.github.io` 仓库
+### 创建 yourname.github.io 仓库
 
 进入[GitHub官网](https://github.com),新建一个公开的名为 `yourname.github.io`  的仓库(yourname为你的用户名)。例如：[我的仓库地址](https://github.com/shiyiqing/shiyiqing.github.io)
 
-2）GitHub生成Token
+### GitHub生成Token
 
-生成Token步骤为：
+生成 Token 步骤为：
 
-账户右上角头像—＞Settings—＞Developer Settings—＞Personal Access Tokens(classic)—＞Generate New Token(classic)—＞设置Token名称、到期时间、权限（repo勾上）—＞Generate Token—＞复制Token（**离开当前页面，将无法再看到它！！！**）
+点击`账户右上角头像` —＞ `Settings` —＞ `Developer Settings` —＞ `Personal Access Tokens(classic)` —＞ `Generate New Token(classic)` —＞ 设置`Token名称`、`到期时间`、`权限`（repo勾上） —＞ `Generate Token` —＞ 复制`Token`（**离开当前页面，将无法再看到它！！！**）
 
-### 3. 部署到GitHub Pages
+## 部署到GitHub Pages
 
-1) 安装部署插件
+### 安装部署插件
 
-ctrl + c 断开链接，在blog目录下：
+`ctrl + c` 断开链接，在`blog`目录下：
 
 ```
 npm install hexo-deployer-git --save
 ```
 
-2) 修改hexo配置
+### 修改 hexo 配置
 
-i : 打开Hexo配置文件 : _config.yml
+- 打开 Hexo 配置文件 : `_config.yml`
 
-ii : 修改repo为[2.  GitHub Pages](#jump)创建的仓库地址
+- 修改 repo 为[2.  GitHub Pages](#jump)创建的仓库地址
 
 ```
 # Deployment
@@ -109,37 +111,37 @@ deploy:
   repo: https://github.com/yourname/yourname.github.io.git //将yourname替换成你的用户名
   branch: master
 ```
-3) 部署到远端
+### 部署到远端
 
 ```
 hexo d
 ```
 
-中间会让输入github用户名和密码，密码用[2.  GitHub Pages](#jump)生成的Token代替。
+中间会让输入 `github 用户名和密码`，密码用[2.  GitHub Pages](#jump)生成的`Token`代替。
 
-4）访问博客
+### 访问博客
 
 博客网址：`https://github.com/yourname/yourname.github.io` 
 
-### 4. 遇到的问题
+## 遇到的问题
 
-1） Error: Cannot download non-corrupt https://formulae.brew.sh/api/formula.json!
+### Error: Cannot download non-corrupt https://formulae.brew.sh/api/formula.json!
 
 解决：`export HOMEBREW_NO_INSTALL_FROM_API=1`
 
 参考：[brew upgrade error #14516](https://github.com/Homebrew/brew/issues/14516)
 
-2） Github pages 报错404无法打开
+### Github pages 报错404无法打开
 
 解决：清除缓存
 
-i : 清除Google 浏览器缓存
+- 清除Google 浏览器缓存
 
 ```
 快捷键：Ctrl+Shift+Del 
 ```
 
-ii ：清除Hexo本地缓存
+- 清除Hexo本地缓存
 
 ```
 hexo clean
@@ -147,7 +149,7 @@ hexo clean
 
 参考：[官方文档](https://docs.github.com/zh/pages/getting-started-with-github-pages/troubleshooting-404-errors-for-github-pages-sites#githubs-status-page)
 
-3）dyld[69655]: Library not loaded: /usr/local/opt/icu4c/lib/libicuio.72.dylib
+### dyld[69655]: Library not loaded: /usr/local/opt/icu4c/lib/libicuio.72.dylib
 
 这个不是搭建博客遇到的问题，而是第二天在工作项目中arc diff时出现的问题。
 
@@ -176,17 +178,17 @@ brew switch icu4c <version>  //没用 （switch → link）
 
 参考：[brew install php@8.0报错](https://blog.csdn.net/tekin_cn/article/details/135318376)
 
-### 5. 总结
+## 总结
 
 解决问题步骤：
 
-1）读懂问题：学会看报错；
+1. **读懂问题**：学会看报错；
 
-2）搜索引擎：Google > Baidu，官方文档 > github > stackoverflow > 国内博客；
+2. **搜索引擎**：Google > Baidu，官方文档 > github > stackoverflow > 国内博客；
 
-3）网友朋友：网上文章下留言，或者问认识的朋友。
+3. **请求帮助**：网上文章下留言，或者问认识的朋友。
 
-### 参考资料
+## 参考资料
 
 [1]  笑胖仔 , (2020-04-18) , GitHub Pages + Hexo免费搭建个人博客_Mac , [知乎专栏] , https://zhuanlan.zhihu.com/p/114195340
 

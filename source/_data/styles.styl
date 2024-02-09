@@ -1,9 +1,212 @@
-// Custom styles.
-// 主页文章添加阴影效果
-.post-block {
-   margin-top: 0px;
-   margin-bottom: 24px;
-   padding: 35px;
-   -webkit-box-shadow: 0 0 24px rgba(202, 203, 203, .5);
-   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+
+/***********************************     用户主页     ****************************************/
+/* 隐藏顶部线条 */
+.headband {
+  display: none;
 }
+
+/* 顶部边距 */
+.header,
+.main-inner {
+  margin-top: 10px;
+
+  +mobile() {
+    margin-top: 0;
+  }
+}
+
+//主页背景
+body {
+  background-color: rgb(232,232,232);
+  opacity: 1;
+  background-size: 30px 30px;
+  background-position: 0 0,15px 15px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.04);
+  min-height: 100vh;
+  margin: 0;
+}
+
+:root {
+  --content-bg-color: rgba(255, 255, 255, 1);
+}
+
+/* 去掉图片边框 */
+.posts-expand .post-body img {
+    border: none;
+    padding: 0px;
+}
+
+.post-gallery .post-gallery-img img {
+    padding: 3px;
+}
+
+/***********************************     侧边栏     ****************************************/
+
+
+
+/***********************************     文章内容     ****************************************/
+
+// 点进文章，文章的主标题
+.posts-expand article:only-of-type h1 {
+    font-weight: bold;
+}
+
+// 二级标题(正常显示器分辨率)//#d79dac 深红紫色 #6f9b9f 深蓝绿色 #ed2000
+.post-body h2 {
+    border-left: 4px solid #3F92CE;
+    //border-radius: 5px;
+    font-weight: bold;
+    height: 42px;
+    line-height: 42px;
+    margin-left: -40px;
+    padding-left: 32px;
+    //margin: 20px -42.3px 15px -48px;
+    //padding-left: 1.7%;
+    //position: relative;
+    //background-color: #ecf6f7; //#ede9ea红紫色
+    //box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+}
+
+// 文章内标题样式（左边的竖线）
+.post-body h3 {
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    //border-left: 4px solid #f27c8d;//#ed2000 红
+    border-left: 4px solid #27ae60;
+    //margin-left: -40px;
+    padding-left: 32px;
+	border-bottom: 1px solid #cfd8dc;
+}
+
+.post-body h4 {
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    //border-left: 4px solid #008942;
+    border-left: 4px solid #9b59b6;
+    margin-left: 40px;
+    padding-left: 32px;   
+    border-bottom: 1px solid #cfd8dc;
+}
+
+.post-body h5 .post-body h6{
+     font-weight: bold;
+}
+
+/* 段后距 */
+p {
+  margin-bottom: 1em;
+}
+
+//文章内部链接
+.post-body a:not(.btn){
+  color: #3F92CE;
+  border-bottom: none;
+  &:hover {
+	color: #6A89B5;
+	font-weight: bold;
+	text-decoration: underline;
+  }
+}
+
+//文章末尾本文链接
+.post-copyright a{
+    color: #3F92CE;//#0593d3
+    border-bottom: none;
+    border-bottom: 1px solid #0593d3;
+    &:hover {
+        color: #6A89B5;//#fc6423
+        border-bottom: none;
+        font-weight: bold;
+        border-bottom: 2px solid #6A89B5;
+    }
+}
+
+//#BA55D3紫色 ``代码
+code {
+    //font-weight: bold;
+    color: rgb(57,61,66);
+    background: rgb(240,240,240);
+    margin: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+/*
+//> 引用
+blockquote{
+    margin: 6px 0;
+    color: #2e405b;
+    border-left: 4px solid rgb(16, 152, 173);//蓝绿 #1098AD
+    background-color: rgb(227, 242, 253);//很浅的蓝
+    // border-top-right-radius: 3px;
+    // border-bottom-right-radius: 3px; 
+    margin-bottom: 20px;
+	border-radius: 3px;
+}
+*/
+/*
+:root {
+	--highlight-background: #f6f8fa;//深灰蓝
+	--highlight-foreground: #4d5a60;
+
+	--highlight-gutter-color: #90a4ae;//灰蓝
+	--highlight-gutter-bg-color: #f1f1f1;
+
+	--highlight-tools-color: #646464;//深灰
+	--highlight-tools-bg-color: #e6ebf1;
+
+	--highlight-scrollbar: #d7d7d7;//灰
+
+
+	--highlight-addition: #fa8072;//红
+	--highlight-deletion: #bf42bf;//紫偏红
+	--highlight-comment: rgba(149, 165, 166, 0.8);//蓝灰
+
+	--highlight-yellow: #ffb62c;
+	--highlight-purple: #7c4dff;
+	--highlight-aqua: #39adb5;
+	--highlight-red: #fa8072;
+	--highlight-orange: #f76d47;
+	--highlight-green: #91b859;
+	--highlight-blue: #6182b8;
+}
+*/
+
+// 修改选中字符的颜色
+/* webkit, opera, IE9 */
+::selection {
+    background: rgb(186,215,251);
+    color: rgb(48,54,56);
+}
+
+/* firefox */
+::-moz-selection {
+    //background: #00c4b6;
+    color: rgb(60,60,60);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

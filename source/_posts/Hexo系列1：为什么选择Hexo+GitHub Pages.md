@@ -9,32 +9,36 @@ categories:
 abbrlink: 39009
 ---
 
-## 1. 为什么搭建个人博客
+一篇介绍为什么选用Hexo+GitHub Pages的方式搭建个人博客的文章。
+
+##  前言
+
+### 为什么搭建个人博客
 
 其实在大学期间就有写博客的想法，工作以后逐渐认识到文档沉淀的重要性，加上平时有用notion、印象笔记、小红书记录的习惯。建站的导火索就是在小红书发的一篇原创笔记，被判包含违规营销内容。于是下定决心自己搭一个博客。
 
 个人博客好处：无需平台审核、没有外链限制、自定义主题等。
 
-## 2. 我的需求
+### 我的需求
 
 - 支持markdown格式。
 - 丰富的主题和插件。
 - 社区成员多且活跃。
 - 简单迅速成本低。
 
-## 3. 主流博客框架
+## 主流博客框架
 
 - **博客三方平台**：博客园、CSDN、简书、掘金、知乎专栏、segmentFault、开源中国、腾讯云社区、阿里云云栖社区。
 - **博客自建框架**：WordPress、Typecho、Ghost（动态框架）、Hexo、Jekyll、Hugo、vuepress、notion(静态框架)。
 - **自己写**。
   
-### 3.1 动态框架和静态框架的区别
+### 动态框架和静态框架的区别
 
 **动态框架**，即用户每一次交互，都会从**数据库**获取数据来动态渲染网页。动态框架**需要一个云服务器**，不仅能实现个人博客，还可以搭建商用网站。
 
 **静态框架**，即本地生成静态页面，然后托管到服务器上自动运行渲染网页。静态框架**不需要云服务器**。
 
-### 3.2 博客框架市场占有率
+### 博客框架市场占有率
 
 美国博客框架排名前三为**WordPress、Blogger和Tumblr**。
 
@@ -48,11 +52,11 @@ abbrlink: 39009
 
 [2)如何挑选博客框架、在线博客平台](https://ednovas.xyz/2021/07/03/blog/)
 
-## 4. WordPress or Hexo？
+## WordPress or Hexo？
 
-### 4.1 [WordPress](https://wordpress.org/)
+### WordPress
 
-**WordPress**是一个基于 PHP 和 MysQL 的动态博客框架。
+[WordPress](https://wordpress.org/)是一个基于 PHP 和 MysQL 的动态博客框架。
 
 **WordPress**允许用户创建和管理自己的网站，是一个功能强大的内容管理系统（CMS）。它的动态展示分为3个阶段，初始化(资源加载)、准备数据和渲染。
 
@@ -65,9 +69,9 @@ abbrlink: 39009
 - 需要有**云服务器**的支持，对云服务器的带宽有一定的要求。
 - 相较于静态博客，动态博客更加**容易受到攻击和崩溃**。
   
-### 4.2 [Hexo](https://hexo.io/zh-cn/)
+### Hexo
 
-**Hexo** 是一个基于Node.js的快速、简洁且高效的静态博客框架。
+[Hexo](https://hexo.io/zh-cn/)是一个基于Node.js的快速、简洁且高效的静态博客框架。
 
 **Hexo** 的工作原理是将用户编写的 **Markdown** 文件转换为 **HTML** 文件，然后渲染生成静态网站。 
 
@@ -83,7 +87,7 @@ abbrlink: 39009
 
 参考：[wordpress和hexo哪个更适合用来搭建个人博客？](https://www.zhihu.com/question/53068081)
   
-## 5. GitHub Pages
+## GitHub Pages
 
 静态博客的托管服务可用GitHub、Coding、Gitee、Netlify、Vercel等。这些服务都是基于 Git的，将博客源码存放在平台，托管服务自动拉取并构建网页。因为平时用github比较多，就选择了Github Pages来托管博客。
 
@@ -100,7 +104,7 @@ abbrlink: 39009
 
 参考：[常见静态网站托管平台使用及多节点部署方案](https://hexo.fluid-dev.com/posts/hexo-static/)
 
-## 6. 总结
+## 总结
 
 除了Hexo+GitHub Pages，还有许多其他的优秀的博客搭建方式。根据自己的需求和技术水平选择合适的工具就可以了。一定记住首先看官方文档。
 
