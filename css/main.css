@@ -2942,23 +2942,17 @@ body {
 .post-body h2 {
   border-left: 4px solid #3f92ce;
   font-weight: bold;
-  height: 42px;
-  line-height: 42px;
   margin-left: -40px;
   padding-left: 32px;
 }
 .post-body h3 {
   font-weight: bold;
-  height: 36px;
-  line-height: 36px;
   border-left: 4px solid #27ae60;
   padding-left: 32px;
   border-bottom: 1px solid #cfd8dc;
 }
 .post-body h4 {
   font-weight: bold;
-  height: 30px;
-  line-height: 30px;
   border-left: 4px solid #9b59b6;
   margin-left: 40px;
   padding-left: 32px;
