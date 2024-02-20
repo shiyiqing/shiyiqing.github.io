@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown系列1：添加文献引用.md</title>
-    <url>/posts/Markdown/adds-literature-citation.html</url>
+    <title>Markdown系列1：添加文献引用</title>
+    <url>/posts/Tools/adds-literature-citation.html</url>
     <content><![CDATA[<p>一篇介绍如何使用Markdown添加文献引用的文章。</p>
 <h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">[<span class="variable">&lt;sup&gt;</span>1<span class="variable">&lt;/sup&gt;</span>](<span class="comment">#refer-anchor-1)</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
@@ -13,7 +13,6 @@
 ]]></content>
       <categories>
         <category>Tools</category>
-        <category>Markdown</category>
       </categories>
       <tags>
         <tag>Markdown</tag>

@@ -6,7 +6,7 @@
   <link href="https://shiyiqing.github.io/atom.xml" rel="self"/>
   
   <link href="https://shiyiqing.github.io/"/>
-  <updated>2024-02-20T11:22:33.987Z</updated>
+  <updated>2024-02-20T11:27:05.607Z</updated>
   <id>https://shiyiqing.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Markdown系列1：添加文献引用.md</title>
-    <link href="https://shiyiqing.github.io/posts/Markdown/adds-literature-citation.html"/>
-    <id>https://shiyiqing.github.io/posts/Markdown/adds-literature-citation.html</id>
+    <title>Markdown系列1：添加文献引用</title>
+    <link href="https://shiyiqing.github.io/posts/Tools/adds-literature-citation.html"/>
+    <id>https://shiyiqing.github.io/posts/Tools/adds-literature-citation.html</id>
     <published>2024-02-20T11:20:50.000Z</published>
-    <updated>2024-02-20T11:22:33.987Z</updated>
+    <updated>2024-02-20T11:27:05.607Z</updated>
     
     
     <summary type="html">&lt;p&gt;一篇介绍如何使用Markdown添加文献引用的文章。&lt;/p&gt;</summary>
@@ -29,8 +29,6 @@
     
     
     <category term="Tools" scheme="https://shiyiqing.github.io/categories/Tools/"/>
-    
-    <category term="Markdown" scheme="https://shiyiqing.github.io/categories/Markdown/"/>
     
     
     <category term="Markdown" scheme="https://shiyiqing.github.io/tags/Markdown/"/>
