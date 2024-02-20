@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://shiyiqing.github.io/posts/Markdown/adds-literature-citation.html</loc>
+    <lastmod>2024-02-20</lastmod>
+  </url>
+  <url>
     <loc>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</loc>
-    <lastmod>2024-02-09</lastmod>
+    <lastmod>2024-02-20</lastmod>
   </url>
   <url>
     <loc>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</loc>
-    <lastmod>2024-02-09</lastmod>
+    <lastmod>2024-02-20</lastmod>
   </url>
   <url>
     <loc>https://shiyiqing.github.io/posts/Blog-Building/hello-world.html</loc>

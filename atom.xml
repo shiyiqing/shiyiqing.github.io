@@ -6,7 +6,7 @@
   <link href="https://shiyiqing.github.io/atom.xml" rel="self"/>
   
   <link href="https://shiyiqing.github.io/"/>
-  <updated>2024-02-09T15:26:27.609Z</updated>
+  <updated>2024-02-20T11:22:33.987Z</updated>
   <id>https://shiyiqing.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Markdown系列1：添加文献引用.md</title>
+    <link href="https://shiyiqing.github.io/posts/Markdown/adds-literature-citation.html"/>
+    <id>https://shiyiqing.github.io/posts/Markdown/adds-literature-citation.html</id>
+    <published>2024-02-20T11:20:50.000Z</published>
+    <updated>2024-02-20T11:22:33.987Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一篇介绍如何使用Markdown添加文献引用的文章。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tools" scheme="https://shiyiqing.github.io/categories/Tools/"/>
+    
+    <category term="Markdown" scheme="https://shiyiqing.github.io/categories/Markdown/"/>
+    
+    
+    <category term="Markdown" scheme="https://shiyiqing.github.io/tags/Markdown/"/>
+    
+    <category term="Literature-Citation" scheme="https://shiyiqing.github.io/tags/Literature-Citation/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo系列2：安装部署 Hexo+GitHub Pages（MAC）</title>
     <link href="https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html"/>
     <id>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</id>
     <published>2024-02-04T11:56:21.285Z</published>
-    <updated>2024-02-09T15:26:27.609Z</updated>
+    <updated>2024-02-20T10:32:37.742Z</updated>
     
     
     <summary type="html">&lt;p&gt;一篇介绍如何在Mac上安装部署Hexo+GitHub Pages的文章。&lt;/p&gt;</summary>
@@ -46,7 +69,7 @@
     <link href="https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html"/>
     <id>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</id>
     <published>2024-02-01T16:02:01.389Z</published>
-    <updated>2024-02-09T14:57:22.856Z</updated>
+    <updated>2024-02-20T10:31:31.720Z</updated>
     
     
     <summary type="html">&lt;p&gt;一篇介绍为什么选用Hexo+GitHub Pages的方式搭建个人博客的文章。&lt;/p&gt;</summary>

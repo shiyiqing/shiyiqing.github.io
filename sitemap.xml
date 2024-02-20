@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shiyiqing.github.io/posts/Markdown/adds-literature-citation.html</loc>
+    
+    <lastmod>2024-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</loc>
     
-    <lastmod>2024-02-09</lastmod>
+    <lastmod>2024-02-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,7 @@
   <url>
     <loc>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</loc>
     
-    <lastmod>2024-02-09</lastmod>
+    <lastmod>2024-02-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -88,6 +97,20 @@
   </url>
   
   <url>
+    <loc>https://shiyiqing.github.io/tags/Markdown/</loc>
+    <lastmod>2024-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiyiqing.github.io/tags/Literature-Citation/</loc>
+    <lastmod>2024-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://shiyiqing.github.io/tags/Token/</loc>
     <lastmod>2024-02-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -105,6 +128,20 @@
   
   <url>
     <loc>https://shiyiqing.github.io/categories/Blog-Building/</loc>
+    <lastmod>2024-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiyiqing.github.io/categories/Tools/</loc>
+    <lastmod>2024-02-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiyiqing.github.io/categories/Markdown/</loc>
     <lastmod>2024-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
