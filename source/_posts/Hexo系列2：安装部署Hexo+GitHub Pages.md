@@ -1,6 +1,6 @@
 ---
-title: Hexo系列2：安装部署 Hexo+GitHub Pages（MAC）
-urlname: Install-and-Deploy-Hexo+GitHub(MAC)
+title: Hexo系列2：安装部署 Hexo+GitHub Pages（Mac）
+urlname: install-and-deploy-hexo+github(mac)
 tags:
   - Hexo
   - GitHub-Pages

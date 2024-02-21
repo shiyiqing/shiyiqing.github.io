@@ -1,6 +1,6 @@
 ---
 title: Hexo系列1：为什么选择Hexo+GitHub Pages
-urlname: Why-choose-Hexo+GitHub
+urlname: why-choose-hexo+github
 tags:
   - Hexo
   - GitHub-Pages
@@ -26,11 +26,13 @@ abbrlink: 39009
 - 社区成员多且活跃。
 - 简单迅速成本低。
 
-## 主流博客框架
+## 主流博客框架[<sup>[1]</sup>](#refer-anchor-1)[<sup>[2]</sup>](#refer-anchor-2)
 
-- **博客三方平台**：博客园、CSDN、简书、掘金、知乎专栏、segmentFault、开源中国、腾讯云社区、阿里云云栖社区。
-- **博客自建框架**：WordPress、Typecho、Ghost（动态框架）、Hexo、Jekyll、Hugo、vuepress、notion(静态框架)。
-- **自己写**。
+传统上，我们写博客大致有三种方式：
+
+- **博客三方平台**：博客园、CSDN、简书、掘金、今日头条、知乎专栏、segmentFault、开源中国、腾讯云社区、阿里云云栖社区。
+- **博客自建框架**：WordPress、Typecho、Ghost（动态框架）、Hexo、Jekyll、Hugo、vuepress(静态框架)。
+- **自己写**：Vue+SpringBoot。
   
 ### 动态框架和静态框架的区别
 
@@ -46,13 +48,7 @@ abbrlink: 39009
 
 数据来源：[builtwith](https://pro.builtwith.com/)
 
-更多内容详见：
-
-[1)博客的发展简史和框架简介](https://justgoidea.com/posts/2023-056/)
-
-[2)如何挑选博客框架、在线博客平台](https://ednovas.xyz/2021/07/03/blog/)
-
-## WordPress or Hexo？
+## WordPress or Hexo？[<sup>[3]</sup>](#refer-anchor-3)
 
 ### WordPress
 
@@ -85,9 +81,8 @@ abbrlink: 39009
 - 每次更新博客需要**重新部署至GitHub**。
 - 配置都在本地，如果换电脑，需要**重新配置环境**。
 
-参考：[wordpress和hexo哪个更适合用来搭建个人博客？](https://www.zhihu.com/question/53068081)
   
-## GitHub Pages
+## GitHub Pages[<sup>[4]</sup>](#refer-anchor-4)
 
 静态博客的托管服务可用GitHub、Coding、Gitee、Netlify、Vercel等。这些服务都是基于 Git的，将博客源码存放在平台，托管服务自动拉取并构建网页。因为平时用github比较多，就选择了Github Pages来托管博客。
 
@@ -100,11 +95,27 @@ abbrlink: 39009
 - GitHub Pages 网站的软带宽限制为每月 **100 GB**。
 - GitHub Pages 站点的软限制为每小时 **10 次**构建。
 
-详见官方文档：[使用限制](help.github.com/en/articles/what-is-github-pages#usage-limits)
-
-参考：[常见静态网站托管平台使用及多节点部署方案](https://hexo.fluid-dev.com/posts/hexo-static/)
+官方文档：[使用限制](help.github.com/en/articles/what-is-github-pages#usage-limits)
 
 ## 总结
 
 除了Hexo+GitHub Pages，还有许多其他的优秀的博客搭建方式。根据自己的需求和技术水平选择合适的工具就可以了。一定记住首先看官方文档。
+
+## 参考文献
+
+<div id="refer-anchor-1"></div>
+
+[1] 槿呈Goidea, (2020-09-08), 博客的发展简史和框架简介, [个人博客], https://justgoidea.com/posts/2023-056/
+
+<div id="refer-anchor-2"></div>
+
+[2] EdNovas, (2021-07-03), 如何挑选博客框架、在线博客平台, [个人博客], https://ednovas.xyz/2021/07/03/blog/
+
+<div id="refer-anchor-3"></div>
+
+[3] 老白, (2023-11-15), wordpress和hexo哪个更适合用来搭建个人博客, [知乎问答], https://www.zhihu.com/question/53068081
+
+<div id="refer-anchor-4"></div>
+
+[4] Vince, (2020-05-27), 常见静态网站托管平台使用及多节点部署方案, [个人博客], https://hexo.fluid-dev.com/posts/hexo-static/
 
