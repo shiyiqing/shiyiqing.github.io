@@ -6,7 +6,7 @@
   <link href="https://shiyiqing.github.io/atom.xml" rel="self"/>
   
   <link href="https://shiyiqing.github.io/"/>
-  <updated>2024-02-20T11:27:05.607Z</updated>
+  <updated>2024-02-21T03:18:02.520Z</updated>
   <id>https://shiyiqing.github.io/</id>
   
   <author>
@@ -17,14 +17,77 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Markdown系列1：添加文献引用</title>
-    <link href="https://shiyiqing.github.io/posts/Tools/adds-literature-citation.html"/>
-    <id>https://shiyiqing.github.io/posts/Tools/adds-literature-citation.html</id>
+    <title>Mac使用技巧</title>
+    <link href="https://shiyiqing.github.io/posts/Tools/skills-of-mac.html"/>
+    <id>https://shiyiqing.github.io/posts/Tools/skills-of-mac.html</id>
+    <published>2024-02-21T03:09:42.000Z</published>
+    <updated>2024-02-21T03:18:02.520Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一篇介绍Mac使用技巧的文章。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tools" scheme="https://shiyiqing.github.io/categories/Tools/"/>
+    
+    
+    <category term="Mac" scheme="https://shiyiqing.github.io/tags/Mac/"/>
+    
+    <category term="Skills" scheme="https://shiyiqing.github.io/tags/Skills/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vim 常用命令</title>
+    <link href="https://shiyiqing.github.io/posts/Tools/common-commands-of-vim.html"/>
+    <id>https://shiyiqing.github.io/posts/Tools/common-commands-of-vim.html</id>
+    <published>2024-02-21T01:49:14.000Z</published>
+    <updated>2024-02-21T02:47:49.256Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一篇介绍Vim常用命令的文章。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tools" scheme="https://shiyiqing.github.io/categories/Tools/"/>
+    
+    
+    <category term="Vim" scheme="https://shiyiqing.github.io/tags/Vim/"/>
+    
+    <category term="Common-Commands" scheme="https://shiyiqing.github.io/tags/Common-Commands/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo系列3：Next主题优化</title>
+    <link href="https://shiyiqing.github.io/posts/Blog-Building/configure-and-optimize-next-theme.html"/>
+    <id>https://shiyiqing.github.io/posts/Blog-Building/configure-and-optimize-next-theme.html</id>
+    <published>2024-02-20T12:17:33.000Z</published>
+    <updated>2024-02-21T02:28:10.020Z</updated>
+    
+    
+    
+    
+    <category term="Blog-Building" scheme="https://shiyiqing.github.io/categories/Blog-Building/"/>
+    
+    
+    <category term="Hexo" scheme="https://shiyiqing.github.io/tags/Hexo/"/>
+    
+    <category term="Next" scheme="https://shiyiqing.github.io/tags/Next/"/>
+    
+    <category term="Configure-and-Optimize" scheme="https://shiyiqing.github.io/tags/Configure-and-Optimize/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 常用语法</title>
+    <link href="https://shiyiqing.github.io/posts/Tools/common-grammar-of-markdown.html"/>
+    <id>https://shiyiqing.github.io/posts/Tools/common-grammar-of-markdown.html</id>
     <published>2024-02-20T11:20:50.000Z</published>
-    <updated>2024-02-20T11:27:05.607Z</updated>
+    <updated>2024-02-21T02:37:50.859Z</updated>
     
     
-    <summary type="html">&lt;p&gt;一篇介绍如何使用Markdown添加文献引用的文章。&lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;一篇介绍Markdown常用语法的文章。&lt;/p&gt;</summary>
     
     
     
@@ -33,16 +96,16 @@
     
     <category term="Markdown" scheme="https://shiyiqing.github.io/tags/Markdown/"/>
     
-    <category term="Literature-Citation" scheme="https://shiyiqing.github.io/tags/Literature-Citation/"/>
+    <category term="Common-Grammar" scheme="https://shiyiqing.github.io/tags/Common-Grammar/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo系列2：安装部署 Hexo+GitHub Pages（MAC）</title>
-    <link href="https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html"/>
-    <id>https://shiyiqing.github.io/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</id>
+    <title>Hexo系列2：安装部署 Hexo+GitHub Pages（Mac）</title>
+    <link href="https://shiyiqing.github.io/posts/Blog-Building/install-and-deploy-hexo+github(mac).html"/>
+    <id>https://shiyiqing.github.io/posts/Blog-Building/install-and-deploy-hexo+github(mac).html</id>
     <published>2024-02-04T11:56:21.285Z</published>
-    <updated>2024-02-20T10:32:37.742Z</updated>
+    <updated>2024-02-21T02:28:53.831Z</updated>
     
     
     <summary type="html">&lt;p&gt;一篇介绍如何在Mac上安装部署Hexo+GitHub Pages的文章。&lt;/p&gt;</summary>
@@ -64,10 +127,10 @@
   
   <entry>
     <title>Hexo系列1：为什么选择Hexo+GitHub Pages</title>
-    <link href="https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html"/>
-    <id>https://shiyiqing.github.io/posts/Blog-Building/Why-choose-Hexo+GitHub.html</id>
+    <link href="https://shiyiqing.github.io/posts/Blog-Building/why-choose-hexo+github.html"/>
+    <id>https://shiyiqing.github.io/posts/Blog-Building/why-choose-hexo+github.html</id>
     <published>2024-02-01T16:02:01.389Z</published>
-    <updated>2024-02-20T10:31:31.720Z</updated>
+    <updated>2024-02-21T02:29:14.390Z</updated>
     
     
     <summary type="html">&lt;p&gt;一篇介绍为什么选用Hexo+GitHub Pages的方式搭建个人博客的文章。&lt;/p&gt;</summary>

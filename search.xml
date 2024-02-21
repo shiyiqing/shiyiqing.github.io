@@ -1,27 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown系列1：添加文献引用</title>
-    <url>/posts/Tools/adds-literature-citation.html</url>
-    <content><![CDATA[<p>一篇介绍如何使用Markdown添加文献引用的文章。</p>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><figure class="highlight gherkin"><table><tr><td class="code"><pre><span class="line">[<span class="variable">&lt;sup&gt;</span>1<span class="variable">&lt;/sup&gt;</span>](<span class="comment">#refer-anchor-1)</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+    <title>Mac使用技巧</title>
+    <url>/posts/Tools/skills-of-mac.html</url>
+    <content><![CDATA[<p>一篇介绍Mac使用技巧的文章。</p>
+<h2 id="更改文件默认打开方式-1"><a href="#更改文件默认打开方式-1" class="headerlink" title="更改文件默认打开方式[1]"></a>更改文件默认打开方式<a href="#refer-anchor-1"><sup>[1]</sup></a></h2><p>右键<code>选择文件</code> -&gt; 点击 <code>显示简介</code> -&gt; 找到 <code>打开方式</code> -&gt; 选择 <code>新的打开应用</code> -&gt; 点击 <code>全部更改</code></p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><div id = "refer-anchor-1"></div>
 
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&lt;div <span class="built_in">id</span>=<span class="string">&quot;refer-anchor-1&quot;</span>&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">[1] MurphyZhao , (2020-01-03) , Markdown 添加文献引用 , [CSDN] , https://blog.csdn.net/u012349679/article/details/103815049</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
-
+<p>[1] akiya , (2021-04-16) ,Mac-更改默认文件打开方式 ,[个人博客] ，<a href="https://little-star.love/posts/1828ef89/">https://little-star.love/posts/1828ef89/</a></p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Skills</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vim 常用命令</title>
+    <url>/posts/Tools/common-commands-of-vim.html</url>
+    <content><![CDATA[<p>一篇介绍Vim常用命令的文章。</p>
+<h2 id="删除-1"><a href="#删除-1" class="headerlink" title="删除[1]"></a>删除<a href="#refer-anchor-1"><sup>[1]</sup></a></h2><h3 id="清空文件全部内容"><a href="#清空文件全部内容" class="headerlink" title="清空文件全部内容"></a>清空文件全部内容</h3><p>在命令模式下，首先执行 <code>gg</code> ，这里是跳至文件首行。再执行： <code>dG</code> ，这样就清空了整个文件！</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2> <div id="refer-anchor-1"></div>
+ 
+<p> [1] jverson , Vim 使用技巧 , [个人博客] , <a href="https://java.jverson.com/tools/vim-editor.html">https://java.jverson.com/tools/vim-editor.html</a></p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Vim</tag>
+        <tag>Common-Commands</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo系列3：Next主题优化</title>
+    <url>/posts/Blog-Building/configure-and-optimize-next-theme.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Blog-Building</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+        <tag>Configure-and-Optimize</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown 常用语法</title>
+    <url>/posts/Tools/common-grammar-of-markdown.html</url>
+    <content><![CDATA[<p>一篇介绍Markdown常用语法的文章。</p>
+<h2 id="添加文献引用-1"><a href="#添加文献引用-1" class="headerlink" title="添加文献引用[1]"></a>添加文献引用<a href="#refer-anchor-1"><sup>[1]</sup></a></h2><figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="comment">//正文</span></span><br><span class="line"><span class="selector-attr">[&lt;sup&gt;[1]</span>&lt;/sup&gt;](#refer-anchor-<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">//参考资料</span></span><br><span class="line">&lt;<span class="selector-tag">div</span> id=<span class="string">&quot;refer-anchor-1&quot;</span>&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[1]</span> MurphyZhao , (<span class="number">2020</span>-<span class="number">01</span>-<span class="number">03</span>) , Markdown 添加文献引用 , <span class="selector-attr">[CSDN]</span> , https:<span class="comment">//blog.csdn.net/u012349679/article/details/103815049</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2> <div id="refer-anchor-1"></div>
+ 
+<p> [1] MurphyZhao , (2020-01-03) , Markdown 添加文献引用 , [CSDN] , <a href="https://blog.csdn.net/u012349679/article/details/103815049">https://blog.csdn.net/u012349679/article/details/103815049</a></p>
 ]]></content>
       <categories>
         <category>Tools</category>
       </categories>
       <tags>
         <tag>Markdown</tag>
-        <tag>Literature-Citation</tag>
+        <tag>Common-Grammar</tag>
       </tags>
   </entry>
   <entry>
-    <title>Hexo系列2：安装部署 Hexo+GitHub Pages（MAC）</title>
-    <url>/posts/Blog-Building/Install-and-Deploy-Hexo+GitHub(MAC).html</url>
+    <title>Hexo系列2：安装部署 Hexo+GitHub Pages（Mac）</title>
+    <url>/posts/Blog-Building/install-and-deploy-hexo+github(mac).html</url>
     <content><![CDATA[<p>一篇介绍如何在Mac上安装部署Hexo+GitHub Pages的文章。</p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>准备：</p>
 <ul>
@@ -112,7 +157,7 @@
   </entry>
   <entry>
     <title>Hexo系列1：为什么选择Hexo+GitHub Pages</title>
-    <url>/posts/Blog-Building/Why-choose-Hexo+GitHub.html</url>
+    <url>/posts/Blog-Building/why-choose-hexo+github.html</url>
     <content><![CDATA[<p>一篇介绍为什么选用Hexo+GitHub Pages的方式搭建个人博客的文章。</p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="为什么搭建个人博客"><a href="#为什么搭建个人博客" class="headerlink" title="为什么搭建个人博客"></a>为什么搭建个人博客</h3><p>其实在大学期间就有写博客的想法，工作以后逐渐认识到文档沉淀的重要性，加上平时有用notion、印象笔记、小红书记录的习惯。建站的导火索就是在小红书发的一篇原创笔记，被判包含违规营销内容。于是下定决心自己搭一个博客。</p>
 <p>个人博客好处：无需平台审核、没有外链限制、自定义主题等。</p>
